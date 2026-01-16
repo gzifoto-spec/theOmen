@@ -1,15 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Navbar from "./components/Navbar"
+import { Routes, Route } from "react-router-dom"
+
+import Home from "./pages/Home"
 
 function App() {
   return (
-    <div>
-      <h1 className="text-xl font-bold text-end mt-20">
-        My Library 📚
-      </h1>
-    </div>
+    <>
+      <Navbar />
+
+      <main className="p-6">
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </main>
+    </>
   )
 }
 
