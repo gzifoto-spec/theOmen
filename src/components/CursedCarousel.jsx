@@ -36,14 +36,16 @@ export default function CursedCarousel() {
     }, []);
 
     return (
-        <div className="relative h-[420px] w-[300px] lg:h-[520px] lg:w-[360px] overflow-hidden rounded-xl border border-[#ff1a1a]/20 bg-[#0b0b0b]/40">
-            <div className="absolute inset-0 bg-gradient-to-b from-[#050505]/30 via-transparent to-[#050505]/90 z-10" />
+        <div className="relative h-105 w-75 lg:h-130 lg:w-90 overflow-hidden rounded-xl border border-[#ff1a1a]/20 bg-[#0b0b0b]/40">
+            {/* Gradiente superior/inferior */}
+            <div className="absolute inset-0 bg-linear-to-b from-[#050505]/30 via-transparent to-[#050505]/90 z-10" />
 
             {movies.map((movie, i) => (
                 <div
                     key={movie.id}
-                    className={`absolute inset-0 transition-opacity duration-1000 ${i === index ? "opacity-100" : "opacity-0"
-                        }`}
+                    className={`absolute inset-0 transition-opacity duration-1000 ${
+                        i === index ? "opacity-100" : "opacity-0"
+                    }`}
                 >
                     <img
                         src={movie.poster}
@@ -52,8 +54,10 @@ export default function CursedCarousel() {
                         draggable="false"
                     />
 
+                    {/* Oscurecido base */}
                     <div className="absolute inset-0 bg-[#050505]/40" />
 
+                    {/* Texto */}
                     <div className="absolute bottom-0 left-0 right-0 p-4 z-20">
                         <p className="font-omen-body text-xs tracking-[0.25em] uppercase text-[#b5b5b5]">
                             {movie.tag} · {movie.year}

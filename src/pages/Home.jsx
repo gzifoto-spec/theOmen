@@ -30,8 +30,7 @@ const Home = () => {
             />
 
             <div className="absolute inset-0 bg-[#050505]/55" />
-            <div className="absolute inset-0 bg-gradient-to-b from-[#050505]/55 via-transparent to-[#050505]/85" />
-
+            <div className="absolute inset-0 bg-linear-to-b from-[#050505]/70 via-transparent to-[#050505]/85" />
             <section className="relative z-10 min-h-screen flex items-center">
                 <div className="w-full px-6 sm:px-10 lg:px-16">
                     <div className="mx-auto max-w-6xl grid items-center gap-10 md:grid-cols-2">
