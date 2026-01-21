@@ -18,7 +18,7 @@ export default function Navbar() {
         <>
             {/* HERO */}
             <div
-                className="relative w-full h-64 bg-cover bg-center bg-no-repeat"
+                className="relative w-full h-37.5 bg-contain bg-center bg-no-repeat"
                 style={{ backgroundImage: "url('/hero.png')" }}
             >
                 <div className="absolute inset-0 bg-black/30" />
