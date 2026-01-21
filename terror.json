@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "titulo": "El silencio de los corderos",
+    "anio": 1991,
+    "rating": 8.6,
+    "poster": "https://image.tmdb.org/t/p/w500/mZGqKLj3nN8qK6z1m4f6m6Q6z1m4f6m.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "El resplandor",
+    "anio": 1980,
+    "rating": 8.4,
+    "poster": "https://image.tmdb.org/t/p/w500/9fghICgT3XaYJ81p8d3K9N4Y8Y9fghI.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Vértigo",
+    "anio": 1958,
+    "rating": 8.4,
+    "poster": "https://image.tmdb.org/t/p/w500/1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "Alien, el octavo pasajero",
+    "anio": 1979,
+    "rating": 8.4,
+    "poster": "https://image.tmdb.org/t/p/w500/2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "Psicosis",
+    "anio": 1960,
+    "rating": 8.5,
+    "poster": "https://image.tmdb.org/t/p/w500/3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Toro salvaje",
+    "anio": 1980,
+    "rating": 8.2,
+    "poster": "https://image.tmdb.org/t/p/w500/4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9.jpg"
+  },
+  {
+    "id": 7,
+    "titulo": "La noche de los muertos vivientes",
+    "anio": 1968,
+    "rating": 7.9,
+    "poster": "https://image.tmdb.org/t/p/w500/5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0.jpg"
+  },
+  {
+    "id": 8,
+    "titulo": "El exorcista",
+    "anio": 1973,
+    "rating": 8.0,
+    "poster": "https://image.tmdb.org/t/p/w500/6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1.jpg"
+  },
+  {
+    "id": 9,
+    "titulo": "El proyecto de la bruja de Blair",
+    "anio": 1999,
+    "rating": 6.5,
+    "poster": "https://image.tmdb.org/t/p/w500/7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2.jpg"
+  },
+  {
+    "id": 10,
+    "titulo": "Hereditary",
+    "anio": 2018,
+    "rating": 7.3,
+    "poster": "https://image.tmdb.org/t/p/w500/8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3.jpg"
+  },
+  {
+    "id": 11,
+    "titulo": "Midsommar",
+    "anio": 2019,
+    "rating": 7.1,
+    "poster": "https://image.tmdb.org/t/p/w500/9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4.jpg"
+  },
+  {
+    "id": 12,
+    "titulo": "The Babadook",
+    "anio": 2014,
+    "rating": 6.8,
+    "poster": "https://image.tmdb.org/t/p/w500/0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5.jpg"
+  },
+  {
+    "id": 13,
+    "titulo": "It Follows",
+    "anio": 2014,
+    "rating": 6.8,
+    "poster": "https://image.tmdb.org/t/p/w500/1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6.jpg"
+  },
+  {
+    "id": 14,
+    "titulo": "La cosa",
+    "anio": 1982,
+    "rating": 8.2,
+    "poster": "https://image.tmdb.org/t/p/w500/2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7.jpg"
+  },
+  {
+    "id": 15,
+    "titulo": "El vuelo del Fénix",
+    "anio": 1965,
+    "rating": 7.5,
+    "poster": "https://image.tmdb.org/t/p/w500/3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8.jpg"
+  },
+  {
+    "id": 16,
+    "titulo": "El precio del poder",
+    "anio": 1983,
+    "rating": 8.3,
+    "poster": "https://image.tmdb.org/t/p/w500/4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9.jpg"
+  },
+  {
+    "id": 17,
+    "titulo": "Tiburón",
+    "anio": 1975,
+    "rating": 8.0,
+    "poster": "https://image.tmdb.org/t/p/w500/5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0.jpg"
+  },
+  {
+    "id": 18,
+    "titulo": "El sexto sentido",
+    "anio": 1999,
+    "rating": 8.2,
+    "poster": "https://image.tmdb.org/t/p/w500/6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1.jpg"
+  },
+  {
+    "id": 19,
+    "titulo": "El otro",
+    "anio": 1972,
+    "rating": 7.9,
+    "poster": "https://image.tmdb.org/t/p/w500/7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2.jpg"
+  },
+  {
+    "id": 20,
+    "titulo": "Los otros",
+    "anio": 2001,
+    "rating": 7.6,
+    "poster": "https://image.tmdb.org/t/p/w500/8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3.jpg"
+  },
+  {
+    "id": 21,
+    "titulo": "El descenso",
+    "anio": 2005,
+    "rating": 7.2,
+    "poster": "https://image.tmdb.org/t/p/w500/9s0t1u2v3w4x5y6z7a8b9c0d1e2f3g4.jpg"
+  },
+  {
+    "id": 22,
+    "titulo": "El conjuro",
+    "anio": 2013,
+    "rating": 7.5,
+    "poster": "https://image.tmdb.org/t/p/w500/0t1u2v3w4x5y6z7a8b9c0d1e2f3g4h5.jpg"
+  },
+  {
+    "id": 23,
+    "titulo": "El conjuro 2",
+    "anio": 2016,
+    "rating": 7.3,
+    "poster": "https://image.tmdb.org/t/p/w500/1u2v3w4x5y6z7a8b9c0d1e2f3g4h5i6.jpg"
+  },
+  {
+    "id": 24,
+    "titulo": "Annabelle",
+    "anio": 2014,
+    "rating": 5.4,
+    "poster": "https://image.tmdb.org/t/p/w500/2v3w4x5y6z7a8b9c0d1e2f3g4h5i6j7.jpg"
+  },
+  {
+    "id": 25,
+    "titulo": "La monja",
+    "anio": 2018,
+    "rating": 5.3,
+    "poster": "https://image.tmdb.org/t/p/w500/3w4x5y6z7a8b9c0d1e2f3g4h5i6j7k8.jpg"
+  },
+  {
+    "id": 26,
+    "titulo": "Helena",
+    "anio": 2019,
+    "rating": 5.5,
+    "poster": "https://image.tmdb.org/t/p/w500/4x5y6z7a8b9c0d1e2f3g4h5i6j7k8l9.jpg"
+  },
+  {
+    "id": 27,
+    "titulo": "El orfanato",
+    "anio": 2007,
+    "rating": 7.4,
+    "poster": "https://image.tmdb.org/t/p/w500/5y6z7a8b9c0d1e2f3g4h5i6j7k8l9m0.jpg"
+  },
+  {
+    "id": 28,
+    "titulo": "Mil gritos tiene la noche",
+    "anio": 1982,
+    "rating": 6.1,
+    "poster": "https://image.tmdb.org/t/p/w500/6z7a8b9c0d1e2f3g4h5i6j7k8l9m0n1.jpg"
+  },
+  {
+    "id": 29,
+    "titulo": "Pesadilla en Elm Street",
+    "anio": 1984,
+    "rating": 7.5,
+    "poster": "https://image.tmdb.org/t/p/w500/7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o2.jpg"
+  },
+  {
+    "id": 30,
+    "titulo": "Viernes 13",
+    "anio": 1980,
+    "rating": 6.4,
+    "poster": "https://image.tmdb.org/t/p/w500/8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p3.jpg"
+  },
+  {
+    "id": 31,
+    "titulo": "Halloween",
+    "anio": 1978,
+    "rating": 7.7,
+    "poster": "https://image.tmdb.org/t/p/w500/9c0d1e2f3g4h5i6j7k8l9m0n1o2p3q4.jpg"
+  },
+  {
+    "id": 32,
+    "titulo": "Scream",
+    "anio": 1996,
+    "rating": 7.4,
+    "poster": "https://image.tmdb.org/t/p/w500/0d1e2f3g4h5i6j7k8l9m0n1o2p3q4r5.jpg"
+  },
+  {
+    "id": 33,
+    "titulo": "El callejón de las almas perdidas",
+    "anio": 1991,
+    "rating": 7.3,
+    "poster": "https://image.tmdb.org/t/p/w500/1e2f3g4h5i6j7k8l9m0n1o2p3q4r5s6.jpg"
+  },
+  {
+    "id": 34,
+    "titulo": "El laberinto del fauno",
+    "anio": 2006,
+    "rating": 8.2,
+    "poster": "https://image.tmdb.org/t/p/w500/2f3g4h5i6j7k8l9m0n1o2p3q4r5s6t7.jpg"
+  },
+  {
+    "id": 35,
+    "titulo": "El hoyo",
+    "anio": 2019,
+    "rating": 7.0,
+    "poster": "https://image.tmdb.org/t/p/w500/3g4h5i6j7k8l9m0n1o2p3q4r5s6t7u8.jpg"
+  },
+  {
+    "id": 36,
+    "titulo": "Bird Box",
+    "anio": 2018,
+    "rating": 6.6,
+    "poster": "https://image.tmdb.org/t/p/w500/4h5i6j7k8l9m0n1o2p3q4r5s6t7u8v9.jpg"
+  },
+  {
+    "id": 37,
+    "titulo": "A quiet place",
+    "anio": 2018,
+    "rating": 7.5,
+    "poster": "https://image.tmdb.org/t/p/w500/5i6j7k8l9m0n1o2p3q4r5s6t7u8v9w0.jpg"
+  },
+  {
+    "id": 38,
+    "titulo": "A quiet place 2",
+    "anio": 2020,
+    "rating": 7.2,
+    "poster": "https://image.tmdb.org/t/p/w500/6j7k8l9m0n1o2p3q4r5s6t7u8v9w0x1.jpg"
+  },
+  {
+    "id": 39,
+    "titulo": "El viaje de Chihiro",
+    "anio": 2001,
+    "rating": 8.6,
+    "poster": "https://image.tmdb.org/t/p/w500/7k8l9m0n1o2p3q4r5s6t7u8v9w0x1y2.jpg"
+  },
+  {
+    "id": 40,
+    "titulo": "El castillo ambulante",
+    "anio": 2004,
+    "rating": 8.2,
+    "poster": "https://image.tmdb.org/t/p/w500/8l9m0n1o2p3q4r5s6t7u8v9w0x1y2z3.jpg"
+  },
+  {
+    "id": 41,
+    "titulo": "La piel que habito",
+    "anio": 2011,
+    "rating": 7.6,
+    "poster": "https://image.tmdb.org/t/p/w500/9m0n1o2p3q4r5s6t7u8v9w0x1y2z3a4.jpg"
+  },
+  {
+    "id": 42,
+    "titulo": "Cisne negro",
+    "anio": 2010,
+    "rating": 8.0,
+    "poster": "https://image.tmdb.org/t/p/w500/0n1o2p3q4r5s6t7u8v9w0x1y2z3a4b5.jpg"
+  },
+  {
+    "id": 43,
+    "titulo": "El renacido",
+    "anio": 2015,
+    "rating": 8.0,
+    "poster": "https://image.tmdb.org/t/p/w500/1o2p3q4r5s6t7u8v9w0x1y2z3a4b5c6.jpg"
+  },
+  {
+    "id": 44,
+    "titulo": "La forma del agua",
+    "anio": 2017,
+    "rating": 7.3,
+    "poster": "https://image.tmdb.org/t/p/w500/2p3q4r5s6t7u8v9w0x1y2z3a4b5c6d7.jpg"
+  },
+  {
+    "id": 45,
+    "titulo": "It",
+    "anio": 2017,
+    "rating": 7.3,
+    "poster": "https://image.tmdb.org/t/p/w500/3q4r5s6t7u8v9w0x1y2z3a4b5c6d7e8.jpg"
+  },
+  {
+    "id": 46,
+    "titulo": "It: Capítulo 2",
+    "anio": 2019,
+    "rating": 6.5,
+    "poster": "https://image.tmdb.org/t/p/w500/4r5s6t7u8v9w0x1y2z3a4b5c6d7e8f9.jpg"
+  },
+  {
+    "id": 47,
+    "titulo": "El faro",
+    "anio": 2019,
+    "rating": 7.5,
+    "poster": "https://image.tmdb.org/t/p/w500/5s6t7u8v9w0x1y2z3a4b5c6d7e8f9g0.jpg"
+  },
+  {
+    "id": 48,
+    "titulo": "Suspiria",
+    "anio": 2018,
+    "rating": 6.8,
+    "poster": "https://image.tmdb.org/t/p/w500/6t7u8v9w0x1y2z3a4b5c6d7e8f9g0h1.jpg"
+  },
+  {
+    "id": 49,
+    "titulo": "Hereditary",
+    "anio": 2018,
+    "rating": 7.3,
+    "poster": "https://image.tmdb.org/t/p/w500/7u8v9w0x1y2z3a4b5c6d7e8f9g0h1i2.jpg"
+  },
+  {
+    "id": 50,
+    "titulo": "El hombre sin sombra",
+    "anio": 2000,
+    "rating": 7.6,
+    "poster": "https://image.tmdb.org/t/p/w500/8u8v9w0x1y2z3a4b5c6d7e8f9g0h1i2j3.jpg"
+  },
+  {
+    "id": 51,
+    "titulo": "El secreto de la cripta",
+    "anio": 1972,
+    "rating": 7.2,
+    "poster": "https://image.tmdb.org/t/p/w500/9v9w0x1y2z3a4b5c6d7e8f9g0h1i2j3k4.jpg"
+  },
+  {
+    "id": 52,
+    "titulo": "La matanza de Texas",
+    "anio": 1974,
+    "rating": 7.2,
+    "poster": "https://image.tmdb.org/t/p/w500/0w0x1y2z3a4b5c6d7e8f9g0h1i2j3k4l5.jpg"
+  },
+  {
+    "id": 53,
+    "titulo": "La noche de Halloween",
+    "anio": 1978,
+    "rating": 7.7,
+    "poster": "https://image.tmdb.org/t/p/w500/1x1y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6.jpg"
+  },
+  {
+    "id": 54,
+    "titulo": "Viernes 13 (Parte 2)",
+    "anio": 1981,
+    "rating": 6.1,
+    "poster": "https://image.tmdb.org/t/p/w500/2y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6n7.jpg"
+  },
+  {
+    "id": 55,
+    "titulo": "Viernes 13 (Parte 3)",
+    "anio": 1982,
+    "rating": 5.9,
+    "poster": "https://image.tmdb.org/t/p/w500/3z3a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8.jpg"
+  },
+  {
+    "id": 56,
+    "titulo": "Viernes 13: The Final Chapter",
+    "anio": 1984,
+    "rating": 6.0,
+    "poster": "https://image.tmdb.org/t/p/w500/4a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8p9.jpg"
+  },
+  {
+    "id": 57,
+    "titulo": "Pesadilla en Elm Street 3: Dream Warriors",
+    "anio": 1987,
+    "rating": 6.6,
+    "poster": "https://image.tmdb.org/t/p/w500/5b5c6d7e8f9g0h1i2j3k4l5m6n7o8p9q0.jpg"
+  },
+  {
+    "id": 58,
+    "titulo": "Pesadilla en Elm Street 4: The Dream Master",
+    "anio": 1988,
+    "rating": 5.9,
+    "poster": "https://image.tmdb.org/t/p/w500/6c6d7e8f9g0h1i2j3k4l5m6n7o8p9q0r1.jpg"
+  },
+  {
+    "id": 59,
+    "titulo": "Scream 2",
+    "anio": 1997,
+    "rating": 6.9,
+    "poster": "https://image.tmdb.org/t/p/w500/7d7e8f9g0h1i2j3k4l5m6n7o8p9q0r1s2.jpg"
+  },
+  {
+    "id": 60,
+    "titulo": "Scream 3",
+    "anio": 2000,
+    "rating": 6.1,
+    "poster": "https://image.tmdb.org/t/p/w500/8e8f9g0h1i2j3k4l5m6n7o8p9q0r1s2t3.jpg"
+  },
+  {
+    "id": 61,
+    "titulo": "Scream 4",
+    "anio": 2011,
+    "rating": 6.2,
+    "poster": "https://image.tmdb.org/t/p/w500/9f9g0h1i2j3k4l5m6n7o8p9q0r1s2t3u4.jpg"
+  },
+  {
+    "id": 62,
+    "titulo": "La noche de los muertos vivientes (1990)",
+    "anio": 1990,
+    "rating": 6.9,
+    "poster": "https://image.tmdb.org/t/p/w500/0g0h1i2j3k4l5m6n7o8p9q0r1s2t3u4v5.jpg"
+  },
+  {
+    "id": 63,
+    "titulo": "El día de la bestia",
+    "anio": 1995,
+    "rating": 7.3,
+    "poster": "https://image.tmdb.org/t/p/w500/1h1i2j3k4l5m6n7o8p9q0r1s2t3u4v5w6.jpg"
+  },
+  {
+    "id": 64,
+    "titulo": "La madre del mal",
+    "anio": 2016,
+    "rating": 6.9,
+    "poster": "https://image.tmdb.org/t/p/w500/2i2j3k4l5m6n7o8p9q0r1s2t3u4v5w6x7.jpg"
+  },
+  {
+    "id": 65,
+    "titulo": "El juego del miedo",
+    "anio": 2004,
+    "rating": 7.6,
+    "poster": "https://image.tmdb.org/t/p/w500/3j3k4l5m6n7o8p9q0r1s2t3u4v5w6x7y8.jpg"
+  },
+  {
+    "id": 66,
+    "titulo": "El juego del miedo II",
+    "anio": 2005,
+    "rating": 6.6,
+    "poster": "https://image.tmdb.org/t/p/w500/4k4l5m6n7o8p9q0r1s2t3u4v5w6x7y8z9.jpg"
+  },
+  {
+    "id": 67,
+    "titulo": "El juego del miedo III",
+    "anio": 2006,
+    "rating": 6.2,
+    "poster": "https://image.tmdb.org/t/p/w500/5l5m6n7o8p9q0r1s2t3u4v5w6x7y8z9a0.jpg"
+  },
+  {
+    "id": 68,
+    "titulo": "Insidious",
+    "anio": 2010,
+    "rating": 6.8,
+    "poster": "https://image.tmdb.org/t/p/w500/6m6n7o8p9q0r1s2t3u4v5w6x7y8z9a0b1.jpg"
+  },
+  {
+    "id": 69,
+    "titulo": "Insidious: Chapter 2",
+    "anio": 2013,
+    "rating": 6.6,
+    "poster": "https://image.tmdb.org/t/p/w500/7n7o8p9q0r1s2t3u4v5w6x7y8z9a0b1c2.jpg"
+  },
+  {
+    "id": 70,
+    "titulo": "Insidious: Chapter 3",
+    "anio": 2015,
+    "rating": 6.1,
+    "poster": "https://image.tmdb.org/t/p/w500/8o8p9q0r1s2t3u4v5w6x7y8z9a0b1c2d3.jpg"
+  },
+  {
+    "id": 71,
+    "titulo": "La noche del demonio",
+    "anio": 2010,
+    "rating": 6.8,
+    "poster": "https://image.tmdb.org/t/p/w500/9p9q0r1s2t3u4v5w6x7y8z9a0b1c2d3e4.jpg"
+  },
+  {
+    "id": 72,
+    "titulo": "La noche del demonio 2",
+    "anio": 2013,
+    "rating": 6.6,
+    "poster": "https://image.tmdb.org/t/p/w500/0q0r1s2t3u4v5w6x7y8z9a0b1c2d3e4f5.jpg"
+  },
+  {
+    "id": 73,
+    "titulo": "El conjuro: El caso Enfield",
+    "anio": 2016,
+    "rating": 6.3,
+    "poster": "https://image.tmdb.org/t/p/w500/1r1s2t3u4v5w6x7y8z9a0b1c2d3e4f5g6.jpg"
+  },
+  {
+    "id": 74,
+    "titulo": "Annabelle: Creation",
+    "anio": 2017,
+    "rating": 6.5,
+    "poster": "https://image.tmdb.org/t/p/w500/2s2t3u4v5w6x7y8z9a0b1c2d3e4f5g6h7.jpg"
+  },
+  {
+    "id": 75,
+    "titulo": "Annabelle Comes Home",
+    "anio": 2019,
+    "rating": 5.9,
+    "poster": "https://image.tmdb.org/t/p/w500/3t3u4v5w6x7y8z9a0b1c2d3e4f5g6h7i8.jpg"
+  },
+  {
+    "id": 76,
+    "titulo": "La monja (The Nun)",
+    "anio": 2018,
+    "rating": 5.4,
+    "poster": "https://image.tmdb.org/t/p/w500/4u4v5w6x7y8z9a0b1c2d3e4f5g6h7i8j9.jpg"
+  },
+  {
+    "id": 77,
+    "titulo": "La llorona",
+    "anio": 2019,
+    "rating": 5.3,
+    "poster": "https://image.tmdb.org/t/p/w500/5v5w6x7y8z9a0b1c2d3e4f5g6h7i8j9k0.jpg"
+  },
+  {
+    "id": 78,
+    "titulo": "Brightburn",
+    "anio": 2019,
+    "rating": 6.1,
+    "poster": "https://image.tmdb.org/t/p/w500/6w6x7y8z9a0b1c2d3e4f5g6h7i8j9k0l1.jpg"
+  },
+  {
+    "id": 79,
+    "titulo": "Us",
+    "anio": 2019,
+    "rating": 6.9,
+    "poster": "https://image.tmdb.org/t/p/w500/7x7y8z9a0b1c2d3e4f5g6h7i8j9k0l1m2.jpg"
+  },
+  {
+    "id": 80,
+    "titulo": "Hereda el viento",
+    "anio": 2020,
+    "rating": 6.2,
+    "poster": "https://image.tmdb.org/t/p/w500/8y8z9a0b1c2d3e4f5g6h7i8j9k0l1m2n3.jpg"
+  },
+  {
+    "id": 81,
+    "titulo": "El resplandor (miniserie)",
+    "anio": 1997,
+    "rating": 6.3,
+    "poster": "https://image.tmdb.org/t/p/w500/9z9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4.jpg"
+  },
+  {
+    "id": 82,
+    "titulo": "Doctor Sueño",
+    "anio": 2019,
+    "rating": 7.3,
+    "poster": "https://image.tmdb.org/t/p/w500/0a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5.jpg"
+  },
+  {
+    "id": 83,
+    "titulo": "La poseído",
+    "anio": 2018,
+    "rating": 5.8,
+    "poster": "https://image.tmdb.org/t/p/w500/1a1b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6.jpg"
+  },
+  {
+    "id": 84,
+    "titulo": "Verónica",
+    "anio": 2017,
+    "rating": 6.2,
+    "poster": "https://image.tmdb.org/t/p/w500/2b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7.jpg"
+  },
+  {
+    "id": 85,
+    "titulo": "El ritual",
+    "anio": 2017,
+    "rating": 6.3,
+    "poster": "https://image.tmdb.org/t/p/w500/3c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7.jpg"
+  },
+  {
+    "id": 86,
+    "titulo": "The Autopsy of Jane Doe",
+    "anio": 2016,
+    "rating": 6.8,
+    "poster": "https://image.tmdb.org/t/p/w500/4d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8.jpg"
+  },
+  {
+    "id": 87,
+    "titulo": "Don't Breathe",
+    "anio": 2016,
+    "rating": 7.1,
+    "poster": "https://image.tmdb.org/t/p/w500/5e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9.jpg"
+  },
+  {
+    "id": 88,
+    "titulo": "The Purge",
+    "anio": 2013,
+    "rating": 5.7,
+    "poster": "https://image.tmdb.org/t/p/w500/6f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0.jpg"
+  },
+  {
+    "id": 89,
+    "titulo": "The Purge: Anarchy",
+    "anio": 2014,
+    "rating": 6.4,
+    "poster": "https://image.tmdb.org/t/p/w500/7g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1.jpg"
+  },
+  {
+    "id": 90,
+    "titulo": "The Purge: Election Year",
+    "anio": 2016,
+    "rating": 6.0,
+    "poster": "https://image.tmdb.org/t/p/w500/8h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2.jpg"
+  },
+  {
+    "id": 91,
+    "titulo": "Get Out",
+    "anio": 2017,
+    "rating": 7.7,
+    "poster": "https://image.tmdb.org/t/p/w500/9i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3.jpg"
+  },
+  {
+    "id": 92,
+    "titulo": "Us",
+    "anio": 2019,
+    "rating": 6.9,
+    "poster": "https://image.tmdb.org/t/p/w500/0j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4.jpg"
+  },
+  {
+    "id": 93,
+    "titulo": "Nosotros",
+    "anio": 2019,
+    "rating": 6.9,
+    "poster": "https://image.tmdb.org/t/p/w500/1k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5.jpg"
+  },
+  {
+    "id": 94,
+    "titulo": "Huye",
+    "anio": 2020,
+    "rating": 7.0,
+    "poster": "https://image.tmdb.org/t/p/w500/2l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6.jpg"
+  },
+  {
+    "id": 95,
+    "titulo": "El acto del silencio",
+    "anio": 2019,
+    "rating": 6.1,
+    "poster": "https://image.tmdb.org/t/p/w500/3m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7.jpg"
+  },
+  {
+    "id": 96,
+    "titulo": "El hombre invisible",
+    "anio": 2020,
+    "rating": 7.1,
+    "poster": "https://image.tmdb.org/t/p/w500/4n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8.jpg"
+  },
+  {
+    "id": 97,
+    "titulo": "La casa del reloj en la pared",
+    "anio": 2018,
+    "rating": 6.0,
+    "poster": "https://image.tmdb.org/t/p/w500/5o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9.jpg"
+  },
+  {
+    "id": 98,
+    "titulo": "El conjuro: El diablo me obligó",
+    "anio": 2021,
+    "rating": 6.3,
+    "poster": "https://image.tmdb.org/t/p/w500/6p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0.jpg"
+  },
+  {
+    "id": 99,
+    "titulo": "Maligno",
+    "anio": 2021,
+    "rating": 6.3,
+    "poster": "https://image.tmdb.org/t/p/w500/7q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1.jpg"
+  },
+  {
+    "id": 100,
+    "titulo": "Spiral: El juego del miedo",
+    "anio": 2021,
+    "rating": 5.2,
+    "poster": "https://image.tmdb.org/t/p/w500/8r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2.jpg"
+  }
+]
