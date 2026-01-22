@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import omenLogoFooter from "../assets/home/the-omen-logo-footer.png";
 
 export default function Footer() {
     const year = new Date().getFullYear();
@@ -6,63 +7,95 @@ export default function Footer() {
     return (
         <footer
             aria-label="Footer THE OMEN"
-            className="mt-10 border-t border-[#b30000]/30 bg-[#050505]"
+            className="mt-12 border-t border-[#b30000]/30 bg-[#050505]"
         >
-            {/* Glow sutil superior */}
-            <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-[#ff1a1a]/70 to-transparent" />
+            {/* Línea glow superior */}
+            <div className="h-[2px] w-full bg-gradient-to-r from-transparent via-[#ff1a1a]/60 to-transparent" />
 
-            <div className="mx-auto w-full max-w-6xl px-5 py-10 sm:px-6 lg:px-8">
-                <div className="grid gap-10 md:grid-cols-3">
-                    {/* Marca + descripción */}
-                    <section aria-label="Marca" className="space-y-3">
-                        <p className="font-omen-title text-2xl tracking-[0.2em] text-[#f2f2f2]">
-                            THE OMEN
-                        </p>
+            <div className="mx-auto max-w-6xl px-5 py-12 sm:px-6 lg:px-8">
+                <div className="grid gap-12 md:grid-cols-3">
+                    {/* Marca */}
+                    <section aria-label="Marca" className="space-y-4">
+                        <Link
+                            to="/"
+                            aria-label="Ir al inicio"
+                            className="inline-flex items-center rounded
+                            focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ff1a1a]
+                            focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505]"
+                            >
+                            <img
+                                src={omenLogoFooter}
+                                alt="THE OMEN"
+                                className="h-16 w-auto object-contain sm:h-20 md:h-24"
+                                loading="lazy"
+                                decoding="async"
+                            />
+                        </Link>
+
                         <p className="font-omen-body text-sm leading-relaxed text-[#b5b5b5]">
                             Un videoclub de culto. Historias prohibidas, proyecciones nocturnas y silencio sagrado.
                         </p>
 
-                        {/* Mini detalle decorativo */}
                         <div className="flex items-center gap-2 pt-1">
                             <span className="h-px w-10 bg-[#b30000]/70" />
                             <span className="font-omen-body text-xs uppercase tracking-[0.25em] text-[#b30000]">
-                                Horror elegante
+                                LAS PUERTAS ESTÁN ABIERTAS. EL REGRESO, NO.
                             </span>
                         </div>
                     </section>
 
-                    {/* Navegación interna */}
-                    <nav aria-label="Enlaces internos" className="space-y-3">
+                    {/* Navegación */}
+                    <nav aria-label="Navegación" className="space-y-4">
                         <p className="font-omen-title text-sm uppercase tracking-[0.25em] text-[#f2f2f2]">
                             Navegación
                         </p>
 
                         <ul className="space-y-2 font-omen-body text-sm">
-                            {[
-                                { to: "/", label: "Inicio" },
-                                { to: "/movies", label: "Películas" },
-                                { to: "/add-movie", label: "Añadir película" },
-                                { to: "/location", label: "Ubicación" },
-                            ].map((item) => (
-                                <li key={item.to}>
-                                    <Link
-                                        to={item.to}
-                                        className="inline-flex items-center gap-2 text-[#b5b5b5] transition
-                                hover:text-[#ff1a1a]
+                            <li>
+                                <Link
+                                    to="/"
+                                    className="text-[#b5b5b5] transition hover:text-[#ff1a1a]
                                 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ff1a1a]
                                 focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505]"
-                                        aria-label={`Ir a ${item.label}`}
-                                    >
-                                        <span className="h-[6px] w-[6px] rounded-full bg-[#b30000]/70" />
-                                        {item.label}
-                                    </Link>
-                                </li>
-                            ))}
+                                >
+                                    Inicio
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to="/movies"
+                                    className="text-[#b5b5b5] transition hover:text-[#ff1a1a]
+                                focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ff1a1a]
+                                focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505]"
+                                >
+                                    Películas
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to="/add-movie"
+                                    className="text-[#b5b5b5] transition hover:text-[#ff1a1a]
+                                focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ff1a1a]
+                                focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505]"
+                                >
+                                    Añadir película
+                                </Link>
+                            </li>
+                            <li>
+                                <Link
+                                    to="/location"
+                                    className="text-[#b5b5b5] transition hover:text-[#ff1a1a]
+                                    focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ff1a1a]
+                                    focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505]"
+                                >
+                                    Ubicación
+                                </Link>
+                            </li>
                         </ul>
                     </nav>
 
-                    {/* Info (falsa pero creíble) */}
-                    <section aria-label="Información" className="space-y-3">
+                    {/* Información */}
+                    <section aria-label="Información" className="space-y-4">
                         <p className="font-omen-title text-sm uppercase tracking-[0.25em] text-[#f2f2f2]">
                             Información
                         </p>
@@ -74,37 +107,36 @@ export default function Footer() {
                             </p>
                             <p>
                                 <span className="text-[#f2f2f2]">Dirección:</span>{" "}
-                                Carrer del Bisbe (Ciutat Vella), 1, 08007 Barcelona
+                                Carrer del Bisbe (Ciutat Vella), 08007 Barcelona
                             </p>
                             <p>
                                 <span className="text-[#f2f2f2]">Contacto:</span>{" "}
                                 <a
                                     href="mailto:contact@theomen-video.club"
-                                    className="text-[#b5b5b5] transition hover:text-[#ff1a1a]
+                                    className="transition hover:text-[#ff1a1a]
                                     focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ff1a1a]
                                     focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505]"
-                                    aria-label="Enviar email a contacto"
-                                >
+                                    >
                                     contact@theomen-video.club
                                 </a>
                             </p>
                         </div>
 
-                        {/* Avisito extra */}
                         <p className="font-omen-body text-xs text-[#b5b5b5]/80">
-                            *Las proyecciones especiales pueden requerir “invitación”. No preguntes dos veces.
+                            *Las proyecciones especiales pueden requerir “invitación”.
+                            No preguntes dos veces.
                         </p>
                     </section>
                 </div>
 
-                {/* Línea final */}
-                <div className="mt-10 flex flex-col gap-3 border-t border-[#b30000]/20 pt-6 sm:flex-row sm:items-center sm:justify-between">
+                {/* Línea inferior */}
+                <div className="mt-12 flex flex-col gap-3 border-t border-[#b30000]/20 pt-6 sm:flex-row sm:items-center sm:justify-between">
                     <p className="font-omen-body text-xs text-[#b5b5b5]">
                         © {year} THE OMEN. Todos los derechos reservados.
                     </p>
 
                     <p className="font-omen-body text-xs text-[#b5b5b5]/80">
-                        Hecho para clase · React · Router · Tailwind
+                        Has cruzado el umbral
                     </p>
                 </div>
             </div>
