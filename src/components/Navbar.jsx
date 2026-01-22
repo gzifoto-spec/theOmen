@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { Link } from "react-router-dom";
 export default function Navbar() {
     const [open, setOpen] = useState(false);
 
@@ -17,11 +17,13 @@ export default function Navbar() {
     return (
         <>
             {/* HERO */}
-            <div
-                className="relative w-full h-37.5 bg-contain bg-center bg-no-repeat"
-                style={{ backgroundImage: "url('/hero.png')" }}
-            >
-                <div className="absolute inset-0 bg-black/30" />
+            <div className="relative w-full">
+                <img
+                    src="/hero.png"
+                    alt="Hero"
+                    className="w-full h-auto block"
+                />
+                <div className="absolute inset-0 bg-black/30 pointer-events-none" />
             </div>
 
             {/* NAVBAR */}
@@ -32,11 +34,18 @@ export default function Navbar() {
 
                         {/* Izquierda */}
                         <div className="hidden md:flex gap-8">
-                            {leftLinks.map((item) => (
-                                <a key={item} href="#" className="hover:text-red-700 transition">
-                                    {item}
-                                </a>
-                            ))}
+                            <ul className="list-none flex gap-8">
+                                <li className="hover:text-red-700 transition">
+                                    <Link to="/">
+                                        Inicio
+                                    </Link>
+                                </li>
+                                <li className="hover:text-red-700 transition">
+                                    <Link to="/peliculas">
+                                        Sección de películas
+                                    </Link>
+                                </li>
+                            </ul>
                         </div>
 
                         {/* Derecha */}
@@ -72,7 +81,7 @@ export default function Navbar() {
                         ))}
                     </div>
                 )}
-            </header>
+            </header >
         </>
     );
 }
