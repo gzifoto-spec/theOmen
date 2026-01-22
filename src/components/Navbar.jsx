@@ -4,15 +4,17 @@ export default function Navbar() {
     const [open, setOpen] = useState(false);
 
     const leftLinks = [
-        "Inicio",
-        "Sección de películas",
-        "Formulario para añadir películas",
+        { label: "Inicio", to: "/" },
+        { label: "Sección de películas", to: "/peliculas" },
+        { label: "Formulario para añadir películas", to: "/formulario" },
     ];
 
     const rightLinks = [
-        "Sobre nosotros",
-        "Contacto",
+        { label: "Ubicación", to: "/ubicacion" },
+        { label: "Sobre nosotros", to: "/nosotros" },
+        { label: "Contacto", to: "/contacto" },
     ];
+
 
     return (
         <>
@@ -45,16 +47,33 @@ export default function Navbar() {
                                         Sección de películas
                                     </Link>
                                 </li>
+                                <li className="hover:text-red-700 transition">
+                                    <Link to="/formulario">
+                                        Formulario para añadir películas
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
 
                         {/* Derecha */}
                         <div className="hidden md:flex gap-8">
-                            {rightLinks.map((item) => (
-                                <a key={item} href="#" className="hover:text-red-700 transition">
-                                    {item}
-                                </a>
-                            ))}
+                            <ul className="list-none flex gap-8">
+                                <li className="hover:text-red-700 transition">
+                                    <Link to="/ubicacion">
+                                        Ubicación
+                                    </Link>
+                                </li>
+                                <li className="hover:text-red-700 transition">
+                                    <Link to="/nosotros">
+                                        Sobre nosotros
+                                    </Link>
+                                </li>
+                                <li className="hover:text-red-700 transition">
+                                    <Link to="/contacto">
+                                        Contacto
+                                    </Link>
+                                </li>
+                            </ul>
                         </div>
 
                         {/* Botón móvil */}
@@ -71,16 +90,18 @@ export default function Navbar() {
                 {open && (
                     <div className="w-full bg-black/80 backdrop-blur-md p-6 text-center md:hidden z-20">
                         {[...leftLinks, ...rightLinks].map((item) => (
-                            <a
-                                key={item}
-                                href="#"
-                                className="block text-sm uppercase tracking-widest text-gray-200 hover:text-red-700 transition mb-2"
+                            <Link
+                                key={item.label}
+                                to={item.to}
+                                onClick={() => setOpen(false)}
+                                className="block text-sm uppercase tracking-widest text-gray-200 hover:text-red-700 transition mb-4"
                             >
-                                {item}
-                            </a>
+                                {item.label}
+                            </Link>
                         ))}
                     </div>
                 )}
+
             </header >
         </>
     );
