@@ -1,19 +1,21 @@
-
+import fondo from '../components/img/fondo.jpg';
 
 function Contact() {
     return (
-        <div className="min-h-screen bg-neutral-950 text-gray-100 px-4 py-8 md:px-6 md:py-12 lg:py-16">
-            <div className="max-w-6xl mx-auto">
+        <div
+            className="min-h-screen text-gray-100 px-4 py-8 md:px-6 md:py-12 lg:py-16 bg-cover bg-center bg-fixed bg-no-repeat relative"
+            style={{ backgroundImage: `url(${fondo})` }}
+        >            <div className="absolute inset-0 bg-black/70 -z-10"></div>
+            <div className="relative z-10 max-w-6xl mx-auto">
 
-            
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-red-600 mb-8 md:mb-12 tracking-wider uppercase drop-shadow-lg">
                     Contacto y Localización
                 </h1>
 
-                
+
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-8">
 
-                    
+
                     <section className="bg-neutral-900 border border-red-900/50 p-6 md:p-8 rounded-lg shadow-2xl shadow-red-950/20">
                         <h2 className="text-xl md:text-2xl font-bold text-red-500 mb-4 md:mb-6 flex items-center gap-3">
                             <span className="text-2xl">📧</span>
@@ -35,7 +37,7 @@ function Contact() {
                         </div>
                     </section>
 
-                
+
                     <section className="bg-neutral-900 border border-red-900/50 p-6 md:p-8 rounded-lg shadow-2xl shadow-red-950/20">
                         <h2 className="text-xl md:text-2xl font-bold text-red-500 mb-4 md:mb-6 flex items-center gap-3">
                             <span className="text-2xl">📍</span>
@@ -88,7 +90,6 @@ function Contact() {
                         </div>
                     </div>
                 </section>
-
 
             </div>
         </div>
