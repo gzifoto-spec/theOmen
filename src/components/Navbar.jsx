@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import '../index.css';
 export default function Navbar() {
     const [open, setOpen] = useState(false);
 
@@ -10,7 +11,6 @@ export default function Navbar() {
     ];
 
     const rightLinks = [
-        { label: "Ubicación", to: "/ubicacion" },
         { label: "Sobre nosotros", to: "/nosotros" },
         { label: "Contacto", to: "/contact" },
     ];
@@ -21,7 +21,7 @@ export default function Navbar() {
             {/* HERO */}
             <div className="relative w-full">
                 <img
-                    src="/hero.png"
+                    src="public/logo-primary.png"
                     alt="Hero"
                     className="w-full h-auto block"
                 />
@@ -32,7 +32,7 @@ export default function Navbar() {
             <header className="w-full bg-black/80 backdrop-blur-md border-t border-white/10">
 
                 <nav className="w-full bg-black">
-                    <div className="relative mx-auto max-w-7xl px-8 py-4 flex items-center justify-between text-sm uppercase tracking-widest text-gray-200">
+                    <div className="font-omen-body relative mx-auto max-w-7xl px-8 py-4 flex items-center justify-between text-sm uppercase tracking-widest text-gray-200">
 
                         {/* Izquierda */}
                         <div className="hidden md:flex gap-8">
@@ -59,11 +59,6 @@ export default function Navbar() {
                         <div className="hidden md:flex gap-8">
                             <ul className="list-none flex gap-8">
                                 <li className="hover:text-red-700 transition">
-                                    <Link to="/ubicacion">
-                                        Ubicación
-                                    </Link>
-                                </li>
-                                <li className="hover:text-red-700 transition">
                                     <Link to="/nosotros">
                                         Sobre nosotros
                                     </Link>
@@ -88,7 +83,7 @@ export default function Navbar() {
 
                 {/* Menú móvil */}
                 {open && (
-                    <div className="w-full bg-black/80 backdrop-blur-md p-6 text-center md:hidden z-20">
+                    <div className="font-omen-body w-full bg-black/80 backdrop-blur-md p-6 text-center md:hidden z-20">
                         {[...leftLinks, ...rightLinks].map((item) => (
                             <Link
                                 key={item.label}

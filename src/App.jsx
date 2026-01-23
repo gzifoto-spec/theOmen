@@ -1,7 +1,14 @@
 import Navbar from "./components/Navbar"
-import { Routes, Route } from "react-router-dom"
-import Contact from "./pages/Contact";
-import Home from "./pages/Home"
+import Hero from "./components/Hero";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Peliculas from "./pages/SeccionDePeliculas";
+import Formulario from "./pages/FormularioParaAnadirPeliculas";
+import Ubicacion from "./pages/Ubicacion";
+import Nosotros from "./pages/SobreNosotros";
+import Contacto from "./pages/Contacto";
+
+
 
 function App () {
   return (
@@ -13,6 +20,7 @@ function App () {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
+      <Footer />
     </>
   );
 }
