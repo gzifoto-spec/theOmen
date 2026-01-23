@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Peliculas from "./pages/SeccionDePeliculas";
+import DetallesPelicula from "./pages/DetallesPelicula";
 import Formulario from "./pages/FormularioParaAnadirPeliculas";
 import Ubicacion from "./pages/Ubicacion";
 import Nosotros from "./pages/SobreNosotros";
@@ -18,6 +19,7 @@ function App () {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/peliculas" element={<Peliculas />} />
+          <Route path="/peliculas/:id" element={<DetallesPelicula />} />
           <Route path="/formulario" element={<Formulario />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/contacto" element={<Contacto />} />    

@@ -4,699 +4,792 @@
     "titulo": "El silencio de los corderos",
     "anio": 1991,
     "rating": 8.6,
-    "poster": "https://image.tmdb.org/t/p/w500/mZGqKLj3nN8qK6z1m4f6m6Q6z1m4f6m.jpg"
+    "poster": "/posters/1.jpg",
+    "sinopsis": "Clarice Starling, del FBI, se aventura a una prisión de máxima seguridad para analizar el cerebro enfermo de Hannibal Lecter, un psiquiatra convertido en caníbal."
   },
   {
     "id": 2,
     "titulo": "El resplandor",
     "anio": 1980,
     "rating": 8.4,
-    "poster": "https://image.tmdb.org/t/p/w500/9fghICgT3XaYJ81p8d3K9N4Y8Y9fghI.jpg"
+    "poster": "/posters/2.jpg",
+    "sinopsis": "Jack Torrance se traslada, junto a su mujer y a su hijo, al impresionante hotel Overlook, en Colorado, para encargarse del mantenimiento del mismo durante la temporada invernal, en la que permanece cerrado y aislado por la nieve. Su idea es escribir su novela al tiempo que cuida de las instalaciones durante esos largos y solitarios meses de invierno, pero desde su llegada al hotel, Jack comienza a padecer inquietantes transtornos de personalidad, al mismo tiempo que en el lugar comienzan a suceder diversos fenómenos paranormales."
   },
   {
     "id": 3,
     "titulo": "Vértigo",
     "anio": 1958,
     "rating": 8.4,
-    "poster": "https://image.tmdb.org/t/p/w500/1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6.jpg"
+    "poster": "/posters/3.jpg",
+    "sinopsis": "Scottie Fergusson es un detective de la policía de San Francisco que padece de vértigo. Cuando un compañero cae al vacío desde una cornisa mientras persiguen a un delincuente, Scottie decide retirarse. Gavin Elster, un viejo amigo del colegio, lo contrata para que vigile a su esposa Madeleine, una bella mujer que está obsesionada con su pasado."
   },
   {
     "id": 4,
     "titulo": "Alien, el octavo pasajero",
     "anio": 1979,
     "rating": 8.4,
-    "poster": "https://image.tmdb.org/t/p/w500/2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7.jpg"
+    "poster": "/posters/4.jpg",
+    "sinopsis": "De regreso a la Tierra, la nave de carga Nostromo interrumpe su viaje y despierta a sus siete tripulantes. El ordenador central, MADRE, ha detectado la misteriosa transmisión de una forma de vida desconocida, procedente de un planeta cercano aparentemente deshabitado. La nave se dirige entonces al extraño planeta para investigar el origen de la comunicación."
   },
   {
     "id": 5,
     "titulo": "Psicosis",
     "anio": 1960,
     "rating": 8.5,
-    "poster": "https://image.tmdb.org/t/p/w500/3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8.jpg"
+    "poster": "/posters/5.jpg",
+    "sinopsis": "Una joven secretaria, tras cometer un robo, se marcha de la ciudad y conduce durante horas, parando para descansar en un pequeño motel de carretera regentado por un joven llamado Norman. Todo parece normal y tranquilo en el apartado motel y en la casa de al lado en la que viven Norman y su madre pero, mientras está en la ducha, la joven es asesinada salvajemente a cuchilladas."
   },
   {
     "id": 6,
     "titulo": "Toro salvaje",
     "anio": 1980,
     "rating": 8.2,
-    "poster": "https://image.tmdb.org/t/p/w500/4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9.jpg"
+    "poster": "/posters/6.jpg",
+    "sinopsis": "Jake la Motta es un joven boxeador que se entrena duramente, ayudado por su hermano Joey, para convertirse en el número uno de los pesos medios. Pronto consigue ver hecho realidad tan ansiado sueño, pero el triunfo y el éxito convierten su vida en una pesadilla. Por un lado, su matrimonio cada vez marcha peor debido a sus salidas nocturnas con otras mujeres; por otro, la mafia le presiona para que amañe combates. En poco tiempo gasta todo el capital del que dispone, para volver nuevamente a pasar todo tipo de penurias."
   },
   {
     "id": 7,
     "titulo": "La noche de los muertos vivientes",
     "anio": 1968,
     "rating": 7.9,
-    "poster": "https://image.tmdb.org/t/p/w500/5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s0.jpg"
+    "poster": "/posters/7.jpg",
+    "sinopsis": "Las radiaciones procedentes de un satélite provocan un fenómeno terrorífico: los muertos salen de sus tumbas y atacan a los hombres para alimentarse. La acción comienza en un cementerio de Pennsylvania, donde Barbara, después de ser atacada por un muerto viviente, huye hacia una granja. Allí también se ha refugiado Ben. Ambos construirán barricadas para defenderse de una multitud de despiadados zombies que sólo pueden ser vencidos con un golpe en la cabeza."
   },
   {
     "id": 8,
     "titulo": "El exorcista",
     "anio": 1973,
-    "rating": 8.0,
-    "poster": "https://image.tmdb.org/t/p/w500/6f7g8h9i0j1k2l3m4n5o6p7q8r9s0t1.jpg"
+    "rating": 8,
+    "poster": "/posters/8.jpg",
+    "sinopsis": "Regan es una niña de doce años víctima de fenómenos paranormales como la levitación o la manifestación de una fuerza sobrehumana. Su madre, aterrorizada, tras someter a su hija a múltiples análisis médicos que no ofrecen ningún resultado, acude a un sacerdote con estudios de psiquiatría. Éste está convencido de que el mal no es físico sino espiritual, es decir, que la niña es víctima de una posesión diabólica. Por eso, con la ayuda de otro sacerdote decide practicar un exorcismo."
   },
   {
     "id": 9,
     "titulo": "El proyecto de la bruja de Blair",
     "anio": 1999,
     "rating": 6.5,
-    "poster": "https://image.tmdb.org/t/p/w500/7g8h9i0j1k2l3m4n5o6p7q8r9s0t1u2.jpg"
+    "poster": "/posters/9.jpg",
+    "sinopsis": "Durante el octubre de 1994, tres estudiantes de cine en el Montgomery College, Heather Donahue, Joshua Leonard y Michael Williams realizaron la propuesta de crear un proyecto para presentarla en la clase de cine, el proyecto llamado por Heather \"El Proyecto de la Bruja de Blair\" contaba de entrevistas con los residentes del pueblo de Burkittsville, Maryland, sobre la bruja local."
   },
   {
     "id": 10,
     "titulo": "Hereditary",
     "anio": 2018,
     "rating": 7.3,
-    "poster": "https://image.tmdb.org/t/p/w500/8h9i0j1k2l3m4n5o6p7q8r9s0t1u2v3.jpg"
+    "poster": "/posters/10.jpg",
+    "sinopsis": "Cosas extrañas comienzan a suceder en casa de los Graham tras la muerte de la abuela y matriarca, que deja en herencia su casa a su hija Annie. Annie Graham, una galerista casada y con dos hijos, no tuvo una infancia demasiado feliz junto a su madre, y cree que la muerte de ésta puede hacer que pase página. Pero todo se complica cuando su hija menor comienza a ver figuras fantasmales, que también empiezan a aparecer ante su hermano."
   },
   {
     "id": 11,
     "titulo": "Midsommar",
     "anio": 2019,
     "rating": 7.1,
-    "poster": "https://image.tmdb.org/t/p/w500/9i0j1k2l3m4n5o6p7q8r9s0t1u2v3w4.jpg"
+    "poster": "/posters/11.jpg",
+    "sinopsis": "Una pareja estadounidense que no está pasando por su mejor momento acude con unos amigos a un festival de verano que se celebra cada noventa años en una aldea remota de Suecia. Lo que comienza como unas vacaciones de ensueño en un lugar en el que el sol no se pone nunca, poco a poco se convierte en una oscura pesadilla cuando los misteriosos aldeanos les invitan a participar en sus perturbadoras actividades festivas."
   },
   {
     "id": 12,
     "titulo": "The Babadook",
     "anio": 2014,
     "rating": 6.8,
-    "poster": "https://image.tmdb.org/t/p/w500/0j1k2l3m4n5o6p7q8r9s0t1u2v3w4x5.jpg"
+    "poster": "/posters/12.jpg",
+    "sinopsis": "Seis años después de la violenta muerte de su marido, Amelia continúa perdida intentando educar a Samuel, su hijo de seis años, que vive aterrorizado por un monstruo que se le aparece en sueños y amenaza con matarlos. Cuando un inquietante libro de cuentos llamado “The Babadook” aparece en su casa, Samuel se muestra convencido de que el Babadook es la criatura sobre la que ha estado soñando. Cuando sus alucinaciones entran en una espiral fuera de control, se vuelve impredecible y violento. Amelia, muy asustada por el comportamiento de su hijo, se ve forzada a medicarle. Pero cuando comienza a vislumbrar una presencia siniestra a su alrededor, Amelia poco a poco se da cuenta de que aquello sobre lo que Samuel la ha estado advirtiendo puede ser real."
   },
   {
     "id": 13,
     "titulo": "It Follows",
     "anio": 2014,
     "rating": 6.8,
-    "poster": "https://image.tmdb.org/t/p/w500/1k2l3m4n5o6p7q8r9s0t1u2v3w4x5y6.jpg"
+    "poster": "/posters/13.jpg",
+    "sinopsis": "Jay, de 18 años, tiene su primer encuentro sexual con su novio en la parte trasera del coche. Tras el hecho, aparentemente inocente, la situación se pone algo tensa cuando su novio hace que ella se desmaye aplicándole cloroformo.  Al despertar, el novio le explica que lo hizo para ahuyentar a una serie de espíritus que lo acosan. A partir de ese momento, es Jay quien sufrirá las consecuencias de ese acoso, encontrándose sumergida en visiones y pesadillas; teniendo la sensación de que alguien o algo la observa."
   },
   {
     "id": 14,
     "titulo": "La cosa",
     "anio": 1982,
     "rating": 8.2,
-    "poster": "https://image.tmdb.org/t/p/w500/2l3m4n5o6p7q8r9s0t1u2v3w4x5y6z7.jpg"
+    "poster": "/posters/14.jpg",
+    "sinopsis": "En una estación experimental de la Antártida, un equipo de investigadores descubre a un ente extraño venido del espacio, que según todos los indicios ha permanecido enterrado en la nieve durante más de 100.000 años. Al descongelarse, experimenta una metamorfosis sorprendente..."
   },
   {
     "id": 15,
     "titulo": "El vuelo del Fénix",
     "anio": 1965,
     "rating": 7.5,
-    "poster": "https://image.tmdb.org/t/p/w500/3m4n5o6p7q8r9s0t1u2v3w4x5y6z7a8.jpg"
+    "poster": "/posters/15.jpg",
+    "sinopsis": "Un avión de carga se cae en una tormenta de arena en el Sahara con al menos una docena de hombres a bordo. Uno de los pasajeros es ingeniero aeronáutico, y se le ocurre la idea de reutilizar un ala que ha quedado en buen estado como base para otro avión que tienen que construir antes de que se agoten los víveres."
   },
   {
     "id": 16,
     "titulo": "El precio del poder",
     "anio": 1983,
     "rating": 8.3,
-    "poster": "https://image.tmdb.org/t/p/w500/4n5o6p7q8r9s0t1u2v3w4x5y6z7a8b9.jpg"
+    "poster": "/posters/16.jpg",
+    "sinopsis": "Un emigrante cubano frío y sanguinario, Tony Montana, llega de Cuba para instalarse en Miami, donde se propone hacerse con un nombre dentro del crimen organizado de Florida. Junto a su amigo, Manny Rivera, inicia una ascendente carrera delictiva."
   },
   {
     "id": 17,
     "titulo": "Tiburón",
     "anio": 1975,
-    "rating": 8.0,
-    "poster": "https://image.tmdb.org/t/p/w500/5o6p7q8r9s0t1u2v3w4x5y6z7a8b9c0.jpg"
+    "rating": 8,
+    "poster": "/posters/17.jpg",
+    "sinopsis": "En la costa de un pequeño pueblo del Este de Estados Unidos, un enorme tiburón ataca a varias personas. Temiendo las fatales consecuencias que esto puede provocar en el negocio turístico, el alcalde se niega a cerrar las playas y a difundir la noticia. Pero un nuevo ataque del tiburón, en la propia playa, termina con la vida de otro bañista. El terror se ha hecho público, así que un veterano cazador de tiburones, un científico y el jefe de la policía local se unen para dar caza al temible escualo..."
   },
   {
     "id": 18,
     "titulo": "El sexto sentido",
     "anio": 1999,
     "rating": 8.2,
-    "poster": "https://image.tmdb.org/t/p/w500/6p7q8r9s0t1u2v3w4x5y6z7a8b9c0d1.jpg"
+    "poster": "/posters/18.jpg",
+    "sinopsis": "El Dr. Malcom Crowe es un conocido psicólogo infantil obsesionado con el doloroso recuerdo de un joven paciente desequilibrado al que fue incapaz de ayudar. Cole Sear es un aterrorizado y confuso niño de ocho años que necesita tratamiento, y Crowe ve la oportunidad de redimirse haciendo todo lo posible por ayudarle. Sin embargo, el psicólogo infantil no está preparado para conocer la terrible verdad acerca del don sobrenatural de su paciente: recibe visitas no deseadas de espíritus atormentados."
   },
   {
     "id": 19,
     "titulo": "El otro",
     "anio": 1972,
     "rating": 7.9,
-    "poster": "https://image.tmdb.org/t/p/w500/7q8r9s0t1u2v3w4x5y6z7a8b9c0d1e2.jpg"
+    "poster": "/posters/19.jpg",
+    "sinopsis": "A mediados de los años treinta, dos hermanos gemelos viven con su familia en el campo. Son muy diferentes entre sí, aunque pasan mucho tiempo juntos. De repente, empiezan a ocurrir extraños sucesos en la granja donde viven y sus alrededores."
   },
   {
     "id": 20,
     "titulo": "Los otros",
     "anio": 2001,
     "rating": 7.6,
-    "poster": "https://image.tmdb.org/t/p/w500/8r9s0t1u2v3w4x5y6z7a8b9c0d1e2f3.jpg"
+    "poster": "/posters/20.jpg",
+    "sinopsis": "Grace educa sola a sus hijos en un aislado caserón victoriano bajo estrictas normas religiosas. Los tres nuevos sirvientes deben aprender una regla vital, la casa estará siempre en penumbra y nunca se abrirá una puerta si no se ha cerrado la anterior  porque los niños sufren una extraña alergia a la luz del día."
   },
   {
     "id": 21,
     "titulo": "El descenso",
     "anio": 2005,
     "rating": 7.2,
-    "poster": "https://image.tmdb.org/t/p/w500/9s0t1u2v3w4x5y6z7a8b9c0d1e2f3g4.jpg"
+    "poster": "/posters/21.jpg",
+    "sinopsis": "Un error de cálculo en un proyecto nuclear trae como consecuencia una sucesión de terremotos y erupciones sísmicas que ponen en peligro la seguridad del planeta que irremediablemente lleva a su destrucción. La única solución es provocar una explosión, pero dadas las características del desastre las cargas tienen que ponerse a 40 km bajo la superficie terrestre."
   },
   {
     "id": 22,
     "titulo": "El conjuro",
     "anio": 2013,
     "rating": 7.5,
-    "poster": "https://image.tmdb.org/t/p/w500/0t1u2v3w4x5y6z7a8b9c0d1e2f3g4h5.jpg"
+    "poster": "/posters/22.jpg",
+    "sinopsis": "Basada en una historia real documentada por los reputados demonólogos Ed y Lorraine Warren. Narra los encuentros sobrenaturales que vivió la familia Perron en su casa de Rhode Island a principios de los 70. El matrimonio Warren, investigadores de renombre en el mundo de los fenómenos paranormales, acudieron a la llamada de esta familia aterrorizada por la presencia en su granja de un ser maligno."
   },
   {
     "id": 23,
     "titulo": "El conjuro 2",
     "anio": 2016,
     "rating": 7.3,
-    "poster": "https://image.tmdb.org/t/p/w500/1u2v3w4x5y6z7a8b9c0d1e2f3g4h5i6.jpg"
+    "poster": "/posters/23.jpg",
+    "sinopsis": "Secuela de la exitosa 'Expediente Warren' (2013), que lleva de nuevo a la pantalla otro caso real de los expedientes de los renombrados demonólogos Ed y Lorraine Warren. En este caso ambos viajarán al norte de Londres para ayudar a una madre soltera que tiene a su cargo cuatro hijos y que vive sola con ellos en una casa plagada de espíritus malignos."
   },
   {
     "id": 24,
     "titulo": "Annabelle",
     "anio": 2014,
     "rating": 5.4,
-    "poster": "https://image.tmdb.org/t/p/w500/2v3w4x5y6z7a8b9c0d1e2f3g4h5i6j7.jpg"
+    "poster": "/posters/24.jpg",
+    "sinopsis": "John Form encuentra el regalo perfecto para su mujer embarazada, Mia: una preciosa e inusual muñeca vintage que lleva un vestido de novia blanco inmaculado. Sin embargo, la alegría de Mia al recibir a Annabelle no dura mucho. Durante una espantosa noche la pareja ve como miembros de una secta satánica invaden su hogar y los atacan brutalmente. No sólo dejan sangre derramada y terror tras su visita…los miembros de la secta conjuran a un ente de tal maldad que nada de lo que han hecho se compara al siniestro camino a la maldición que ahora es… Annabelle."
   },
   {
     "id": 25,
     "titulo": "La monja",
     "anio": 2018,
     "rating": 5.3,
-    "poster": "https://image.tmdb.org/t/p/w500/3w4x5y6z7a8b9c0d1e2f3g4h5i6j7k8.jpg"
+    "poster": "/posters/25.jpg",
+    "sinopsis": "Cuando una joven monja se suicida en una abadía de clausura en Rumanía, un sacerdote experto en posesiones demoniacas y una novicia a punto de tomar sus votos, son enviados por el Vaticano para investigar. Juntos descubren el profano secreto de la orden. Arriesgando no solo sus propias vidas sino su fe y hasta sus almas, se enfrentan a una fuerza maléfica en forma de monja demoníaca, en una abadía que se convierte en un campo de batalla de horror entre los vivos y los condenados...."
   },
   {
     "id": 26,
     "titulo": "Helena",
     "anio": 2019,
     "rating": 5.5,
-    "poster": "https://image.tmdb.org/t/p/w500/4x5y6z7a8b9c0d1e2f3g4h5i6j7k8l9.jpg"
+    "poster": "/posters/26.jpg"
   },
   {
     "id": 27,
     "titulo": "El orfanato",
     "anio": 2007,
     "rating": 7.4,
-    "poster": "https://image.tmdb.org/t/p/w500/5y6z7a8b9c0d1e2f3g4h5i6j7k8l9m0.jpg"
+    "poster": "/posters/27.jpg",
+    "sinopsis": "Laura regresa con su familia al orfanato en el que creció de niña, con la intenció de abrir una residencia para niños discapacitados. El nuevo entorno despierta la imaginació de su hijo, que comienza a dejarse llevar por juegos de fantasía cada vez más intensos. Éstos van inquietando a Laura cada vez más, hasta el punto en el que llega a pensar que hay algo en la casa que está amenazando a su familia. A ella le ocurre algo extraordinario y, a pesar de que es una mujer con unos principios muy claros, su universo se tambalea poniendo en duda todo aquello en lo que creía..."
   },
   {
     "id": 28,
     "titulo": "Mil gritos tiene la noche",
     "anio": 1982,
     "rating": 6.1,
-    "poster": "https://image.tmdb.org/t/p/w500/6z7a8b9c0d1e2f3g4h5i6j7k8l9m0n1.jpg"
+    "poster": "/posters/28.jpg",
+    "sinopsis": "En una Universidad de los Estados Unidos, una chica es asesinada y su cadáver aparece sin la cabeza. Al poco tiempo, otra chica es asesinada en la piscina de la Universidad y su cuerpo destrozado. La policía decide poner una mujer-policía en la Universidad, camuflada como profesora de tenis. Posteriormente, una periodista que investiga las muertes, es también asesinada, y otras dos chicas mueren con sus cadáveres horriblemente mutilados."
   },
   {
     "id": 29,
     "titulo": "Pesadilla en Elm Street",
     "anio": 1984,
     "rating": 7.5,
-    "poster": "https://image.tmdb.org/t/p/w500/7a8b9c0d1e2f3g4h5i6j7k8l9m0n1o2.jpg"
+    "poster": "/posters/29.jpg",
+    "sinopsis": "Varios jóvenes de una pequeña localidad tienen habitualmente pesadillas en las que son perseguidos por un hombre deformado por el fuego y que usa un guante terminado en afiladas cuchillas. Algunos de ellos comienzan a ser asesinados mientras duermen por este ser, que resulta ser un asesino al que los padres de estos jóvenes quemaron vivo hace varios años tras descubrir que había asesinado a varios niños."
   },
   {
     "id": 30,
     "titulo": "Viernes 13",
     "anio": 1980,
     "rating": 6.4,
-    "poster": "https://image.tmdb.org/t/p/w500/8b9c0d1e2f3g4h5i6j7k8l9m0n1o2p3.jpg"
+    "poster": "/posters/30.jpg",
+    "sinopsis": "Varios jóvenes pasan sus vacaciones en un campamento de verano, reabierto recientemente, y en el que unos años antes murió un joven ahogado en el lago. En poco tiempo, algunos de ellos son encontrados sin vida."
   },
   {
     "id": 31,
     "titulo": "Halloween",
     "anio": 1978,
     "rating": 7.7,
-    "poster": "https://image.tmdb.org/t/p/w500/9c0d1e2f3g4h5i6j7k8l9m0n1o2p3q4.jpg"
+    "poster": "/posters/31.jpg",
+    "sinopsis": "Durante la noche de Halloween, Michael, un niño de seis años, asesina a su familia con un cuchillo de cocina. Es internado en un psiquiátrico del que huye quince años más tarde, precisamente la víspera de Halloween. El psicópata vuelve a su pueblo y comete una serie de asesinatos. Mientras, uno de los médicos del psiquiátrico le sigue la pista."
   },
   {
     "id": 32,
     "titulo": "Scream",
     "anio": 1996,
     "rating": 7.4,
-    "poster": "https://image.tmdb.org/t/p/w500/0d1e2f3g4h5i6j7k8l9m0n1o2p3q4r5.jpg"
+    "poster": "/posters/32.jpg",
+    "sinopsis": "Sidney Prescott, una adolescente de la pequeña comunidad de Woodsboro, se convierte en el objetivo de un misterioso asesino en serie. Una reportera de un canal de noticias, Gale Weathers, que cubrió el asesinato un año atrás de la madre de Sidney, cubre ahora estos asesinatos, además ha escrito un libro en el que defiende al supuesto asesino de Maureen, Cotton Weary, que va a ir a la cámara de gas, alegando que cayó en una trampa, lo que hace reavivar la polémica. Los crímenes dejan de ser aislados y continúan los asesinatos. Ahora Sidney, su novio y sus amigos están en peligro, ya que el asesino quiere revivir lo sucedido un año atrás con Maureen Prescott, pero esta vez con su hija."
   },
   {
     "id": 33,
     "titulo": "El callejón de las almas perdidas",
     "anio": 1991,
     "rating": 7.3,
-    "poster": "https://image.tmdb.org/t/p/w500/1e2f3g4h5i6j7k8l9m0n1o2p3q4r5s6.jpg"
+    "poster": "https://image.tmdb.org/t/p/w500/rR5xfFu7TKZfxnkFarVZLqb4VLV.jpg"
   },
   {
     "id": 34,
     "titulo": "El laberinto del fauno",
     "anio": 2006,
     "rating": 8.2,
-    "poster": "https://image.tmdb.org/t/p/w500/2f3g4h5i6j7k8l9m0n1o2p3q4r5s6t7.jpg"
+    "poster": "/posters/34.jpg",
+    "sinopsis": "En la España falangista de 1944, una joven aficionada a los libros e hijastra de un sádico oficial del ejército huye a un misterioso pero cautivador mundo de fantasía."
   },
   {
     "id": 35,
     "titulo": "El hoyo",
     "anio": 2019,
-    "rating": 7.0,
-    "poster": "https://image.tmdb.org/t/p/w500/3g4h5i6j7k8l9m0n1o2p3q4r5s6t7u8.jpg"
+    "rating": 7,
+    "poster": "/posters/35.jpg",
+    "sinopsis": "Un lugar misterioso, una prisión indescriptible, un agujero muy profundo. Un número desconocido de niveles. Dos reclusos viviendo en cada nivel. Una plataforma descendente que contiene alimentos para todos ellos. Una lucha inhumana por la supervivencia, pero también una oportunidad para ser solidario."
   },
   {
     "id": 36,
     "titulo": "Bird Box",
     "anio": 2018,
     "rating": 6.6,
-    "poster": "https://image.tmdb.org/t/p/w500/4h5i6j7k8l9m0n1o2p3q4r5s6t7u8v9.jpg"
+    "poster": "/posters/36.jpg",
+    "sinopsis": "Thriller posapocalíptico en el que una mujer y sus dos hijos, estos con los ojos vendados, navegan río abajo tras una sangrienta invasión alienígena de la Tierra intentando evitar a las criaturas extraterrestres. Cuando algo misterioso diezma la población mundial, solo se sabe una cosa: si lo ves, te suicidas. Malorie deberá huir junto a sus dos hijos por un caudaloso y traicionero río, rumbo al único sitio que parece ofrecer refugio. Pero para sobrevivir, deberán completar el peligroso viaje de dos días con los ojos vendados."
   },
   {
     "id": 37,
     "titulo": "A quiet place",
     "anio": 2018,
     "rating": 7.5,
-    "poster": "https://image.tmdb.org/t/p/w500/5i6j7k8l9m0n1o2p3q4r5s6t7u8v9w0.jpg"
+    "poster": "/posters/37.jpg",
+    "sinopsis": "Evelyn y Lee Abbott son una pareja con tres hijos que vive en una granja aislada de toda civilización al norte de Nueva York. Esta familia ha sobrevivido durante meses en un mundo invadido y amenazado por mortales criaturas extraterrestres que se guían por el sonido para cazar. En este contexto en el que una palabra puede significar la muerte, la familia Abbott vive silenciosamente, andan descalzos y se comunican por medio del lenguaje de señas."
   },
   {
     "id": 38,
     "titulo": "A quiet place 2",
     "anio": 2020,
     "rating": 7.2,
-    "poster": "https://image.tmdb.org/t/p/w500/6j7k8l9m0n1o2p3q4r5s6t7u8v9w0x1.jpg"
+    "poster": "/posters/38.jpg",
+    "sinopsis": "Tras los fatales acontecimientos sucedidos en la primera parte, la familia Abbot debe enfrentarse a los peligros del mundo exterior mientras luchan en silencio por sobrevivir. Forzados a aventurarse en lo desconocido, pronto se dan cuenta de que las criaturas que cazan orientadas por el sonido no son la única amenaza que acecha más allá del camino de arena. Secuela de la exitosa producción \"Un lugar tranquilo\" (A Quiet Place, 2018)."
   },
   {
     "id": 39,
     "titulo": "El viaje de Chihiro",
     "anio": 2001,
     "rating": 8.6,
-    "poster": "https://image.tmdb.org/t/p/w500/7k8l9m0n1o2p3q4r5s6t7u8v9w0x1y2.jpg"
+    "poster": "/posters/39.jpg",
+    "sinopsis": "Durante el traslado de su familia a los suburbios, una niña de 10 años de edad deambula por un mundo gobernado por dioses, brujas y espíritus, y donde los humanos se convierten en bestias."
   },
   {
     "id": 40,
     "titulo": "El castillo ambulante",
     "anio": 2004,
     "rating": 8.2,
-    "poster": "https://image.tmdb.org/t/p/w500/8l9m0n1o2p3q4r5s6t7u8v9w0x1y2z3.jpg"
+    "poster": "/posters/40.jpg",
+    "sinopsis": "Sophie, una joven sobre la que pesa una horrible maldición que le confiere el aspecto de una anciana, decide pedir ayuda al mago Howl, que vive en un castillo ambulante, pero tal vez sea Howl quien necesite la ayuda de Sophie."
   },
   {
     "id": 41,
     "titulo": "La piel que habito",
     "anio": 2011,
     "rating": 7.6,
-    "poster": "https://image.tmdb.org/t/p/w500/9m0n1o2p3q4r5s6t7u8v9w0x1y2z3a4.jpg"
+    "poster": "/posters/41.jpg",
+    "sinopsis": "Desde que su mujer murió quemada en un accidente de coche, el Dr. Ledgard, eminente cirujano plástico, se interesa por la creación de una nueva piel con la que hubiera podido salvarla. Doce años después consigue cultivarla en su laboratorio, aprovechando los avances de la terapia celular. Para ello no dudará en traspasar una puerta hasta ahora terminantemente vedada: la transgénesis con seres humanos. Pero ese no será el único crimen que cometerá..."
   },
   {
     "id": 42,
     "titulo": "Cisne negro",
     "anio": 2010,
-    "rating": 8.0,
-    "poster": "https://image.tmdb.org/t/p/w500/0n1o2p3q4r5s6t7u8v9w0x1y2z3a4b5.jpg"
+    "rating": 8,
+    "poster": "/posters/42.jpg",
+    "sinopsis": "Nina, una brillante bailarina que forma parte de una compañía de ballet de Nueva York, vive completamente absorbida por la danza. La presión de su controladora madre, la rivalidad con su compañera Lily y las exigencias del severo director se irán incrementando a medida que se acerca el día del estreno. Esta tensión provoca en Nina un agotamiento nervioso y una confusión mental que la incapacitan para distinguir entre realidad y ficción."
   },
   {
     "id": 43,
     "titulo": "El renacido",
     "anio": 2015,
-    "rating": 8.0,
-    "poster": "https://image.tmdb.org/t/p/w500/1o2p3q4r5s6t7u8v9w0x1y2z3a4b5c6.jpg"
+    "rating": 8,
+    "poster": "/posters/43.jpg",
+    "sinopsis": "Durante una expedición en las tierras salvajes americanas, el legendario explorador Hugh Glass es brutalmente atacado por un oso y dado por muerto por los miembros de su propia partida de caza. En su cruzada por sobrevivir, Glass supera inimaginables tribulaciones, además de la traición de su confidente John Fitzgerald. Guiado por la pura determinación y el amor de su familia, Glass deberá superar un duro invierno mientras busca sin descanso un motivo para seguir adelante y encontrar la redención."
   },
   {
     "id": 44,
     "titulo": "La forma del agua",
     "anio": 2017,
     "rating": 7.3,
-    "poster": "https://image.tmdb.org/t/p/w500/2p3q4r5s6t7u8v9w0x1y2z3a4b5c6d7.jpg"
+    "poster": "/posters/44.jpg",
+    "sinopsis": "Elisa es una joven muda que trabaja como conserje en un laboratorio en 1963, en plena Guerra Fría, donde se enamorará de un hombre anfibio que se encuentra ahí recluido."
   },
   {
     "id": 45,
     "titulo": "It",
     "anio": 2017,
     "rating": 7.3,
-    "poster": "https://image.tmdb.org/t/p/w500/3q4r5s6t7u8v9w0x1y2z3a4b5c6d7e8.jpg"
+    "poster": "/posters/45.jpg",
+    "sinopsis": "Remake del clásico de Stephen King en el que un payaso aterroriza a los niños de un vecindario. En un pequeño pueblo de Maine, siete niños conocidos como el Club de los Perdedores se encuentran cara a cara con problemas de la vida, matones y un monstruo que toma la forma de un payaso llamado Pennywise."
   },
   {
     "id": 46,
     "titulo": "It: Capítulo 2",
     "anio": 2019,
     "rating": 6.5,
-    "poster": "https://image.tmdb.org/t/p/w500/4r5s6t7u8v9w0x1y2z3a4b5c6d7e8f9.jpg"
+    "poster": "/posters/46.jpg",
+    "sinopsis": "Han pasado casi 30 años desde que el \"Club de los Perdedores\", formado por Bill, Beverly, Richie, Ben, Eddie, Mike y Stanley, se enfrentaran al macabro y despiadado Pennywise (Bill Skarsgård). En cuanto tuvieron oportunidad, abandonaron el pueblo de Derry, en el estado de Maine, que tantos problemas les había ocasionado. Sin embargo, ahora, siendo adultos, parece que no pueden escapar de su pasado. Todos deberán enfrentarse de nuevo al temible payaso para descubrir si de verdad están preparados para superar sus traumas de la infancia."
   },
   {
     "id": 47,
     "titulo": "El faro",
     "anio": 2019,
     "rating": 7.5,
-    "poster": "https://image.tmdb.org/t/p/w500/5s6t7u8v9w0x1y2z3a4b5c6d7e8f9g0.jpg"
+    "poster": "/posters/47.jpg",
+    "sinopsis": "Tres fareros llegan a una isla abandonada. Thomas, James y Donald comienzan sus rutinas, hasta que algo inesperado ocurre: topan con algo extraño, algo que no es exactamente lo que un farero debería vigilar. Las cosas se complicarán cuando avistan un barco que podría tener todas las respuestas, desatando un thriller psicológico basado en la leyenda de la isla de Flannan."
   },
   {
     "id": 48,
     "titulo": "Suspiria",
     "anio": 2018,
     "rating": 6.8,
-    "poster": "https://image.tmdb.org/t/p/w500/6t7u8v9w0x1y2z3a4b5c6d7e8f9g0h1.jpg"
+    "poster": "/posters/48.jpg",
+    "sinopsis": "Susie Bannion (Dakota Johnson) es una joven estadounidense que viaja a Berlín para cursar sus estudios de danza en una de las escuelas más prestigiosas del mundo, dirigida por Madame Blanc (Tilda Swinton). El mismo día en el que ingresa en la escuela, una de las alumnas recientemente expulsada es asesinada. No se trata de un hecho aislado, lo que hace sospechar a la brillante estudiante sobre la implicación de la escuela en los homicidios. Su desconfianza aumenta cuando una compañera le cuenta que antes de que Pat muriera, ésta le confesó que conocía un terrorífico secreto. Remake del clásico giallo dirigido por Dario Argento en 1977, 'Suspiria'."
   },
   {
     "id": 49,
     "titulo": "Hereditary",
     "anio": 2018,
     "rating": 7.3,
-    "poster": "https://image.tmdb.org/t/p/w500/7u8v9w0x1y2z3a4b5c6d7e8f9g0h1i2.jpg"
+    "poster": "/posters/49.jpg",
+    "sinopsis": "Cosas extrañas comienzan a suceder en casa de los Graham tras la muerte de la abuela y matriarca, que deja en herencia su casa a su hija Annie. Annie Graham, una galerista casada y con dos hijos, no tuvo una infancia demasiado feliz junto a su madre, y cree que la muerte de ésta puede hacer que pase página. Pero todo se complica cuando su hija menor comienza a ver figuras fantasmales, que también empiezan a aparecer ante su hermano."
   },
   {
     "id": 50,
     "titulo": "El hombre sin sombra",
     "anio": 2000,
     "rating": 7.6,
-    "poster": "https://image.tmdb.org/t/p/w500/8u8v9w0x1y2z3a4b5c6d7e8f9g0h1i2j3.jpg"
+    "poster": "/posters/50.jpg",
+    "sinopsis": "El descubrimiento de un brillante científico lo hace invisible, pero lo transforma en un omnipotente y peligroso megalómano."
   },
   {
     "id": 51,
     "titulo": "El secreto de la cripta",
     "anio": 1972,
     "rating": 7.2,
-    "poster": "https://image.tmdb.org/t/p/w500/9v9w0x1y2z3a4b5c6d7e8f9g0h1i2j3k4.jpg"
+    "poster": "https://image.tmdb.org/t/p/w500/zc36eXxWvJE3Yd6f1DVbDhMH4tZ.jpg"
   },
   {
     "id": 52,
     "titulo": "La matanza de Texas",
     "anio": 1974,
     "rating": 7.2,
-    "poster": "https://image.tmdb.org/t/p/w500/0w0x1y2z3a4b5c6d7e8f9g0h1i2j3k4l5.jpg"
+    "poster": "/posters/52.jpg",
+    "sinopsis": "Cinco adolescentes visitan la tumba, supuestamente profanada, del abuelo de uno de ellos. Cuando llegan al lugar, donde hay un siniestro matadero, toman una deliciosa carne en una gasolinera. A partir de ese momento, los jóvenes vivirán la peor pesadilla de toda su vida."
   },
   {
     "id": 53,
     "titulo": "La noche de Halloween",
     "anio": 1978,
     "rating": 7.7,
-    "poster": "https://image.tmdb.org/t/p/w500/1x1y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6.jpg"
+    "poster": "/posters/53.jpg",
+    "sinopsis": "Durante la noche de Halloween, Michael, un niño de seis años, asesina a su familia con un cuchillo de cocina. Es internado en un psiquiátrico del que huye quince años más tarde, precisamente la víspera de Halloween. El psicópata vuelve a su pueblo y comete una serie de asesinatos. Mientras, uno de los médicos del psiquiátrico le sigue la pista."
   },
   {
     "id": 54,
     "titulo": "Viernes 13 (Parte 2)",
     "anio": 1981,
     "rating": 6.1,
-    "poster": "https://image.tmdb.org/t/p/w500/2y2z3a4b5c6d7e8f9g0h1i2j3k4l5m6n7.jpg"
+    "poster": "/posters/54.jpg",
+    "sinopsis": "Alice, superviviente de la tragedia del campamento de Crystal Lake, muere asesinada en su apartamento. Cinco años más tarde, un grupo de jóvenes aparece en el escenario de las macabras muertes, que aparentemente ha recuperado la normalidad, para realizar un curso de entrenamiento. Cuando el grupo se separa empieza de nuevo el implacable ritual sangriento. Paul, el líder del grupo, y su novia Ginny vuelven al campo para descubrir la masacre y también al autor de los crímenes, un Jason milagrosamente vivo pero terriblemente deformado y sediento de venganza."
   },
   {
     "id": 55,
     "titulo": "Viernes 13 (Parte 3)",
     "anio": 1982,
     "rating": 5.9,
-    "poster": "https://image.tmdb.org/t/p/w500/3z3a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8.jpg"
+    "poster": "/posters/55.jpg",
+    "sinopsis": "Un idílico verano va a convertirse en la peor de las pesadillas para otro grupo de despreocupados jóvenes de vacaciones. Ignorando el legado de sangre del campamento de Crystal Lake, uno por uno van siendo víctimas del maníaco Jason, que los acecha en cada momento."
   },
   {
     "id": 56,
     "titulo": "Viernes 13: The Final Chapter",
     "anio": 1984,
-    "rating": 6.0,
-    "poster": "https://image.tmdb.org/t/p/w500/4a4b5c6d7e8f9g0h1i2j3k4l5m6n7o8p9.jpg"
+    "rating": 6,
+    "poster": "/posters/56.jpg",
+    "sinopsis": "Jasón, el más impopular de los habitantes de Cristal Lake, regresa para causar mayores estragos en esta parte. Tras su resurgimiento en el depósito de cadáveres de un hospital, el asesino enmascarado centra su venganza en la familia Jarvis y en un grupo de despreocupados adolescentes. El joven Tommy Jarvis es un gran aficionado al cine de terror con un talento especial para las máscaras y el maquillaje. ¿Ha encontrado el diabólico Jasón finalmente la horma de su zapato?"
   },
   {
     "id": 57,
     "titulo": "Pesadilla en Elm Street 3: Dream Warriors",
     "anio": 1987,
     "rating": 6.6,
-    "poster": "https://image.tmdb.org/t/p/w500/5b5c6d7e8f9g0h1i2j3k4l5m6n7o8p9q0.jpg"
+    "poster": "/posters/57.jpg",
+    "sinopsis": "Años después de los incidentes, Nancy se ha convertido en una psiquiatra especializado en terapia del sueño, pero Freddy también sigue en activo, y comienza a parecerse en los sueños de varios de los pacientes. Nancy los reúne a todos en busca de una forma de parar al monstruo."
   },
   {
     "id": 58,
     "titulo": "Pesadilla en Elm Street 4: The Dream Master",
     "anio": 1988,
     "rating": 5.9,
-    "poster": "https://image.tmdb.org/t/p/w500/6c6d7e8f9g0h1i2j3k4l5m6n7o8p9q0r1.jpg"
+    "poster": "/posters/58.jpg",
+    "sinopsis": "Freddy Krueger vuelve a la vida después de su aparente muerte en la entrega anterior y comienza a matar a los chicos que viven en Elm Street. Pero, Kristen, capaz de atraer a los demás dentro de sus sueños, le concede este poder especial a su amiga Alice. Sin embargo, ésta se da cuenta de que Freddy está sacando partido a este extraño poder."
   },
   {
     "id": 59,
     "titulo": "Scream 2",
     "anio": 1997,
     "rating": 6.9,
-    "poster": "https://image.tmdb.org/t/p/w500/7d7e8f9g0h1i2j3k4l5m6n7o8p9q0r1s2.jpg"
+    "poster": "/posters/59.jpg",
+    "sinopsis": "La universidad de Windsor ofrece una variada opción de materias para sus estudiantes, justo lo que Sidney Prescott necesita. Es primavera, dos años después de los asesinatos en Woodsboro, California, y el año escolar está llegando a su fin. Sid tiene una compañera de habitación, un novio y es la elegida para encabezar el reparto de la obra que se representa en la universidad este curso. Randy, otro de los supervivientes de los asesinatos de Woodsboro, estudia cine en Windsor. También es feliz, como Sid. Pero el pasado nunca queda atrás. De hecho, vuelve y alguien es asesinado mientras ve la película \"Stab\" (Puñalada) en el cine del campus, el día del estreno nacional. Stab, basada en la novela superventas escrita por la periodista Gale Weathers, describe los asesinatos de Woodsboro. El libro no sólo se vendió como rosquillas, además ayudó a salir de la prisión a Cotton Weary, el hombre acusado por Sidney de la muerte de su madre."
   },
   {
     "id": 60,
     "titulo": "Scream 3",
     "anio": 2000,
     "rating": 6.1,
-    "poster": "https://image.tmdb.org/t/p/w500/8e8f9g0h1i2j3k4l5m6n7o8p9q0r1s2t3.jpg"
+    "poster": "/posters/60.jpg",
+    "sinopsis": "Después de los terroríficos acontecimientos que tuvieron lugar en la localidad de Woodsboro, Sidney vive alejada del mundo en una casita de las montañas, intentando olvidar el pasado. Se dedica a proporcionar apoyo moral a mujeres con problemas a través del teléfono; pero, un día, alguien la llama para informarla de los asesinatos que se están produciendo durante el rodaje de \"Puñaladas 3\", película basada en los hechos de los que ella fue protagonista."
   },
   {
     "id": 61,
     "titulo": "Scream 4",
     "anio": 2011,
     "rating": 6.2,
-    "poster": "https://image.tmdb.org/t/p/w500/9f9g0h1i2j3k4l5m6n7o8p9q0r1s2t3u4.jpg"
+    "poster": "/posters/61.jpg",
+    "sinopsis": "Sidney Prescott ha logrado olvidar los asesinatos cometidos en Woodsboro. Diez años después, convertida en una escritora de éxito, vuelve a su pueblo natal con motivo de la gira de promoción de su nuevo libro. Pero su regreso irá acompañado de una nueva ola de crímenes perpetrados por un viejo conocido: Ghostface."
   },
   {
     "id": 62,
     "titulo": "La noche de los muertos vivientes (1990)",
     "anio": 1990,
     "rating": 6.9,
-    "poster": "https://image.tmdb.org/t/p/w500/0g0h1i2j3k4l5m6n7o8p9q0r1s2t3u4v5.jpg"
+    "poster": "https://image.tmdb.org/t/p/w500/OBB0QJPD9PgAzFgXqp2YHYnJPvb.jpg"
   },
   {
     "id": 63,
     "titulo": "El día de la bestia",
     "anio": 1995,
     "rating": 7.3,
-    "poster": "https://image.tmdb.org/t/p/w500/1h1i2j3k4l5m6n7o8p9q0r1s2t3u4v5w6.jpg"
+    "poster": "/posters/63.jpg",
+    "sinopsis": "Un sacerdote cree haber encontrado el mensaje secreto del Apocalipsis según San Juan: El Anticristo nacerá el 25 de diciembre de 1995 en Madrid. Para detener este nacimiento satánico, el cura se une a un joven aficionado al death metal, José María, intentando por todos los medios descubrir en qué parte de Madrid tendrá lugar el apocalíptico evento. Con la ayuda del profesor Cavan, que presenta un programa de televisión sobre el mundo esotérico y sobrenatural, el cura y José Mari invocan al diablo en una extraña ceremonia."
   },
   {
     "id": 64,
     "titulo": "La madre del mal",
     "anio": 2016,
     "rating": 6.9,
-    "poster": "https://image.tmdb.org/t/p/w500/2i2j3k4l5m6n7o8p9q0r1s2t3u4v5w6x7.jpg"
+    "poster": "/posters/64.jpg",
+    "sinopsis": "En esta comedia, Amy (Kunis) tiene una vida aparentemente perfecta - un buen matrimonio, hijos inteligentes, una casa hermosa y un gran trabajo. Sin embargo se encuentra sobrecargada de trabajo, demasiada comprometida y agotada al punto de colapsar. Harta, une fuerzas con otras dos mamás estresadas (Bell y Hahn) en una búsqueda para liberarse de las responsabilidades convencionales, y hacer frente a la mandamás de la asociación de padres de la escuela y a su grupo de mamás perfectas y devotas."
   },
   {
     "id": 65,
     "titulo": "El juego del miedo",
     "anio": 2004,
     "rating": 7.6,
-    "poster": "https://image.tmdb.org/t/p/w500/3j3k4l5m6n7o8p9q0r1s2t3u4v5w6x7y8.jpg"
+    "poster": "/posters/65.jpg",
+    "sinopsis": "Dos extraños, que se despiertan en una habitación sin recordar cómo llegaron allí, pronto descubren que son peones en un juego mortal perpetrado por un famoso asesino en serie."
   },
   {
     "id": 66,
     "titulo": "El juego del miedo II",
     "anio": 2005,
     "rating": 6.6,
-    "poster": "https://image.tmdb.org/t/p/w500/4k4l5m6n7o8p9q0r1s2t3u4v5w6x7y8z9.jpg"
+    "poster": "/posters/66.jpg",
+    "sinopsis": "Un detective y su equipo deben rescatar a 8 personas encerradas en una fábrica por el retorcido asesino en serie conocido como Jigsaw."
   },
   {
     "id": 67,
     "titulo": "El juego del miedo III",
     "anio": 2006,
     "rating": 6.2,
-    "poster": "https://image.tmdb.org/t/p/w500/5l5m6n7o8p9q0r1s2t3u4v5w6x7y8z9a0.jpg"
+    "poster": "/posters/67.jpg",
+    "sinopsis": "Nuevas y macabras aventuras del siniestro Jigsaw, el hombre que mueve los hilos de los espantosos juegos que han aterrorizado a la comunidad y desconcertado a la policía. Jigsaw, una vez más, ha conseguido escapar, esta vez con la ayuda de su nueva aprendiz, Amanda (Shawnee Smith). Mientras la policía local intenta localizarle, el Doctor Lynn Denlon (Bahar Soomekh) y Jeff (Angus Macfayden) no saben que están a punto de convertirse en los siguientes peones de este horrible juego."
   },
   {
     "id": 68,
     "titulo": "Insidious",
     "anio": 2010,
     "rating": 6.8,
-    "poster": "https://image.tmdb.org/t/p/w500/6m6n7o8p9q0r1s2t3u4v5w6x7y8z9a0b1.jpg"
+    "poster": "/posters/68.jpg",
+    "sinopsis": "Una familia descubre que espíritus oscuros han invadido su hogar después de que su hijo inexplicablemente cae en un sueño interminable. Cuando piden ayuda a un profesional, descubren que las cosas son mucho más personales de lo que pensaban."
   },
   {
     "id": 69,
     "titulo": "Insidious: Chapter 2",
     "anio": 2013,
     "rating": 6.6,
-    "poster": "https://image.tmdb.org/t/p/w500/7n7o8p9q0r1s2t3u4v5w6x7y8z9a0b1c2.jpg"
+    "poster": "/posters/69.jpg",
+    "sinopsis": "Los Lambert creen que han derrotado a los espíritus que han perseguido a su familia, pronto descubrirán que el mal no es tan fácil de vencer."
   },
   {
     "id": 70,
     "titulo": "Insidious: Chapter 3",
     "anio": 2015,
     "rating": 6.1,
-    "poster": "https://image.tmdb.org/t/p/w500/8o8p9q0r1s2t3u4v5w6x7y8z9a0b1c2d3.jpg"
+    "poster": "/posters/70.jpg",
+    "sinopsis": "Elise Rainier (Lin Shaye) acepta a regañadientes utilizar su capacidad de contactar con los muertos a fin de ayudar a una adolescente (Stefanie Scott) que se ha convertido en el blanco de una peligrosa entidad sobrenatural."
   },
   {
     "id": 71,
     "titulo": "La noche del demonio",
     "anio": 2010,
     "rating": 6.8,
-    "poster": "https://image.tmdb.org/t/p/w500/9p9q0r1s2t3u4v5w6x7y8z9a0b1c2d3e4.jpg"
+    "poster": "/posters/71.jpg",
+    "sinopsis": "Durante una fiesta de Halloween, la policía interrumpe la noche y sella la mansión en la que se está celebrando. Un grupo de jóvenes decide esconderse y seguir la diversión el resto de la noche, a pesar de que no puedan salir de allí. Cuando bajan al sótano y descubren unos sorprendentes restos humanos, se desata la pesadilla y los demonios y espíritus comienzan a llenar la mansión y aterrorizar a los muchachos, que tendrán que enfrentarse a todos sus temores si quieren terminar con vida esta Noche de los Demonios. Se trata de un remake de la película de 1988 del mismo nombre."
   },
   {
     "id": 72,
     "titulo": "La noche del demonio 2",
     "anio": 2013,
     "rating": 6.6,
-    "poster": "https://image.tmdb.org/t/p/w500/0q0r1s2t3u4v5w6x7y8z9a0b1c2d3e4f5.jpg"
+    "poster": "/posters/72.jpg",
+    "sinopsis": "Los Lambert creen que han derrotado a los espíritus que han perseguido a su familia, pronto descubrirán que el mal no es tan fácil de vencer."
   },
   {
     "id": 73,
     "titulo": "El conjuro: El caso Enfield",
     "anio": 2016,
     "rating": 6.3,
-    "poster": "https://image.tmdb.org/t/p/w500/1r1s2t3u4v5w6x7y8z9a0b1c2d3e4f5g6.jpg"
+    "poster": "/posters/73.jpg",
+    "sinopsis": "Secuela de la exitosa 'Expediente Warren' (2013), que lleva de nuevo a la pantalla otro caso real de los expedientes de los renombrados demonólogos Ed y Lorraine Warren. En este caso ambos viajarán al norte de Londres para ayudar a una madre soltera que tiene a su cargo cuatro hijos y que vive sola con ellos en una casa plagada de espíritus malignos."
   },
   {
     "id": 74,
     "titulo": "Annabelle: Creation",
     "anio": 2017,
     "rating": 6.5,
-    "poster": "https://image.tmdb.org/t/p/w500/2s2t3u4v5w6x7y8z9a0b1c2d3e4f5g6h7.jpg"
+    "poster": "/posters/74.jpg",
+    "sinopsis": "Varios años después del trágico fallecimiento de su hija, un juguetero que crea muñecas y su mujer, acogen en su casa a una monja enfermera y a un grupo de niñas, tratando de convertir su casa en un acogedor orfanato. Sin embargo, las nuevos inquilinos se convertirán en el objetivo de Annabelle, una muñeca poseída por un ser demoníaco. Secuela de \"Annabelle\" (2014)."
   },
   {
     "id": 75,
     "titulo": "Annabelle Comes Home",
     "anio": 2019,
     "rating": 5.9,
-    "poster": "https://image.tmdb.org/t/p/w500/3t3u4v5w6x7y8z9a0b1c2d3e4f5g6h7i8.jpg"
+    "poster": "/posters/75.jpg",
+    "sinopsis": "Annabelle Vuelve a Casa es la tercera entrega de la saga \"Annabelle\" de New Line Cinema, protagonizada por la infame y siniestra muñeca del universo \"Expediente Warren\".  Los demonólogos Ed y Lorraine Warren están decididos a evitar que Annabelle cause más estragos, así que llevan a la muñeca poseída a la sala de objetos bajo llave que tienen en su casa. La colocan \"a salvo\" en una vitrina sagrada bendecida por un sacerdote. Pero una terrorífica noche nada santa, Annabelle despierta a los espíritus malignos de la habitación que se fijan un nuevo objetivo: la hija de diez años de los Warren, Judy, y sus amigas."
   },
   {
     "id": 76,
     "titulo": "La monja (The Nun)",
     "anio": 2018,
     "rating": 5.4,
-    "poster": "https://image.tmdb.org/t/p/w500/4u4v5w6x7y8z9a0b1c2d3e4f5g6h7i8j9.jpg"
+    "poster": "/posters/76.jpg",
+    "sinopsis": "Cuando una joven monja se suicida en una abadía de clausura en Rumanía, un sacerdote experto en posesiones demoniacas y una novicia a punto de tomar sus votos, son enviados por el Vaticano para investigar. Juntos descubren el profano secreto de la orden. Arriesgando no solo sus propias vidas sino su fe y hasta sus almas, se enfrentan a una fuerza maléfica en forma de monja demoníaca, en una abadía que se convierte en un campo de batalla de horror entre los vivos y los condenados...."
   },
   {
     "id": 77,
     "titulo": "La llorona",
     "anio": 2019,
     "rating": 5.3,
-    "poster": "https://image.tmdb.org/t/p/w500/5v5w6x7y8z9a0b1c2d3e4f5g6h7i8j9k0.jpg"
+    "poster": "/posters/77.jpg",
+    "sinopsis": "Una historia de horror y fantasía, llena de suspenso, y una metáfora urgente de la historia reciente de Guatemala y sus heridas políticas curadas."
   },
   {
     "id": 78,
     "titulo": "Brightburn",
     "anio": 2019,
     "rating": 6.1,
-    "poster": "https://image.tmdb.org/t/p/w500/6w6x7y8z9a0b1c2d3e4f5g6h7i8j9k0l1.jpg"
+    "poster": "/posters/78.jpg",
+    "sinopsis": "Todo lo que los Breyer han querido siempre es algo teóricamente simple: un hijo. A pesar de sus intentos, ese deseo no parece hacerse realidad. Hasta que, una noche, algo cae en la granja en la que viven: una nave que lleva a un niño dentro. Conforme este va creciendo, descubre que tiene unas habilidades especiales que no le permiten encajar, unas habilidades que acaban sacando de él lo peor de sí mismo."
   },
   {
     "id": 79,
     "titulo": "Us",
     "anio": 2019,
     "rating": 6.9,
-    "poster": "https://image.tmdb.org/t/p/w500/7x7y8z9a0b1c2d3e4f5g6h7i8j9k0l1m2.jpg"
+    "poster": "/posters/79.jpg",
+    "sinopsis": "Adelaide Wilson es una mujer que vuelve al hogar de su infancia en la costa junto a su marido, Gabe, y sus dos hijos, para una idílica escapada veraniega. Después de un tenso día en la playa con sus amigos, Adelaide y su familia vuelven a la casa donde están pasando las vacaciones. Cuando cae la noche, los Wilson descubren la silueta de cuatro figuras cogidas de la mano y en pie delante de la vivienda. \"Nosotros\" enfrenta a una entrañable familia estadounidense a un enemigo tan insólito como aterrador."
   },
   {
     "id": 80,
     "titulo": "Hereda el viento",
     "anio": 2020,
     "rating": 6.2,
-    "poster": "https://image.tmdb.org/t/p/w500/8y8z9a0b1c2d3e4f5g6h7i8j9k0l1m2n3.jpg"
+    "poster": "https://image.tmdb.org/t/p/w500/kVxU0Z1xjpR1r7iBZfkf8hj2Dne.jpg"
   },
   {
     "id": 81,
     "titulo": "El resplandor (miniserie)",
     "anio": 1997,
     "rating": 6.3,
-    "poster": "https://image.tmdb.org/t/p/w500/9z9a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4.jpg"
+    "poster": "https://image.tmdb.org/t/p/w500/6ZZQnwg82QHJwMAd1sKvIB4n4k2.jpg"
   },
   {
     "id": 82,
     "titulo": "Doctor Sueño",
     "anio": 2019,
     "rating": 7.3,
-    "poster": "https://image.tmdb.org/t/p/w500/0a0b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5.jpg"
+    "poster": "/posters/82.jpg",
+    "sinopsis": "Secuela del film de culto \"El resplandor\" (1980) dirigido por Stanley Kubrick y también basado en una famosa novela de Stephen King. La historia transcurre algunos años después de los acontecimientos de \"The Shining\", y sigue a Danny Torrance (Ewan McGregor), traumatizado y con problemas de ira y alcoholismo que hacen eco de los problemas de su padre Jack, que cuando sus habilidades psíquicas resurgen, se contacta con una niña de nombre Abra Stone, a quien debe rescatar de un grupo de viajeros que se alimentan de los niños que poseen el don de \"el resplandor\"."
   },
   {
     "id": 83,
     "titulo": "La poseído",
     "anio": 2018,
     "rating": 5.8,
-    "poster": "https://image.tmdb.org/t/p/w500/1a1b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6.jpg"
+    "poster": "/posters/83.jpg",
+    "sinopsis": "Mary está embarazada de gemelos, pero, en el parto, uno de los bebés muere. Diagnosticada con depresión postparto, la mujer entra en una espiral de neurosis, sobre todo cuando descubre las historias sobre un ente demoníaco que se alimenta de las madres y los recién nacidos. ¿Será eso lo que la atormenta por las noches, o se trata de sus terrores íntimos?"
   },
   {
     "id": 84,
     "titulo": "Verónica",
     "anio": 2017,
     "rating": 6.2,
-    "poster": "https://image.tmdb.org/t/p/w500/2b1c2d3e4f5g6h7i8j9k0l1m2n3o4p5q6r7.jpg"
+    "poster": "/posters/84.jpg",
+    "sinopsis": "Una psicóloga que ha dejado de practicar la medicina, decide tomar el caso de Verónica de la Serna, una joven cuyo terapeuta anterior ha desaparecido misteriosamente."
   },
   {
     "id": 85,
     "titulo": "El ritual",
     "anio": 2017,
     "rating": 6.3,
-    "poster": "https://image.tmdb.org/t/p/w500/3c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7.jpg"
+    "poster": "/posters/85.jpg",
+    "sinopsis": "Un grupo de amigos de la universidad se reúnen para emprender un viaje de senderismo por los montes de Suecia, con la finalidad de rendir homenaje a uno de ellos, muerto de forma violenta. Cuando se internan en el bosque, una presencia amenazante empieza a acosarles."
   },
   {
     "id": 86,
     "titulo": "The Autopsy of Jane Doe",
     "anio": 2016,
     "rating": 6.8,
-    "poster": "https://image.tmdb.org/t/p/w500/4d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8.jpg"
+    "poster": "/posters/86.jpg",
+    "sinopsis": "El dueño de una funeraria de una pequeña localidad y su hijo, que trabaja con él, reciben un día el cadáver de la víctima de un misterioso crimen: una bella joven que no tiene ninguna causa aparente de muerte. Ambos intentarán desvelar los intrigantes motivos del fallecimiento de la joven."
   },
   {
     "id": 87,
     "titulo": "Don't Breathe",
     "anio": 2016,
     "rating": 7.1,
-    "poster": "https://image.tmdb.org/t/p/w500/5e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9.jpg"
+    "poster": "/posters/87.jpg",
+    "sinopsis": "Unos jóvenes ladrones creen haber encontrado la oportunidad de cometer el robo perfecto. Su objetivo será un ciego solitario, poseedor de millones de dólares ocultos. Pero tan pronto como entran en su casa serán conscientes de su error, pues se encontrarán atrapados y luchando por sobrevivir contra un psicópata con sus propios y temibles secretos."
   },
   {
     "id": 88,
     "titulo": "The Purge",
     "anio": 2013,
     "rating": 5.7,
-    "poster": "https://image.tmdb.org/t/p/w500/6f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0.jpg"
+    "poster": "/posters/88.jpg",
+    "sinopsis": "Año 2022. En una futura sociedad distópica, el régimen político, llamado Nueva Fundación de los padres de América, ha implantado una medida catárquica ante la violencia campante y las cárceles saturadas: la \"purga anual\", según la cual una noche al año se puede cometer cualquier clase de crimen, incluso el asesinato, sin tener que responder ante la justicia. La violencia se desata durante esas 12 horas, y los individuos se desfogan, imperando la calma el resto del año. Horas antes de que comience la purga anual, el vendedor de sistemas de seguridad James Sandin regresa a su casa en un lujoso suburbio de Los Angeles junto a su esposa María y sus dos hijos, Zoey y Charlie. Lo que no contaba esa famillia es que poco tiempo después de comenzar la noche un extraño llame a la puerta."
   },
   {
     "id": 89,
     "titulo": "The Purge: Anarchy",
     "anio": 2014,
     "rating": 6.4,
-    "poster": "https://image.tmdb.org/t/p/w500/7g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1.jpg"
+    "poster": "/posters/89.jpg",
+    "sinopsis": "El crimen hace estragos en Estados Unidos y las cárceles están llenas. El gobierno decide que una noche al año, durante doce horas, cualquier actividad criminal, incluso el asesinato, será legal. No se puede llamar a la policía, los hospitales no admiten pacientes, los ciudadanos deben arreglárselas solos porque cometer un delito no está castigado. Durante esa noche plagada de peligros, 5 personas que se han quedado fuera de sus casas deciden juntarse para poder enfrentarse mejor a los ciudadanos salvajes que buscan calmar sus ansias de violencia."
   },
   {
     "id": 90,
     "titulo": "The Purge: Election Year",
     "anio": 2016,
-    "rating": 6.0,
-    "poster": "https://image.tmdb.org/t/p/w500/8h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2.jpg"
+    "rating": 6,
+    "poster": "/posters/90.jpg",
+    "sinopsis": "Han pasado dos años desde que el ex-sargento de policía Leo Barnes (Frank Grillo) decidió no vengarse del hombre que mató a su hijo. Ahora Barnes dirige al equipo de seguridad que se encarga de proteger a la senadora Charlie Roan (Elizabeth Mitchell), una candidata a la Presidencia que reivindica la supresión de La Purga anual, que consiste en permitir, una noche al año, cualquier actividad criminal, incluído el asesinato. Roan considera que esta práctica perjudica sobre todo a los necesitados y a los pobres."
   },
   {
     "id": 91,
     "titulo": "Get Out",
     "anio": 2017,
     "rating": 7.7,
-    "poster": "https://image.tmdb.org/t/p/w500/9i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3.jpg"
+    "poster": "/posters/91.jpg",
+    "sinopsis": "Un joven afroamericano visita a la familia de su novia blanca, un matrimonio adinerado. Para Chris y su novia Rose ha llegado el momento de conocer a los futuros suegros, por lo que ella le invita a pasar un fin de semana en el campo con sus padres, Missy y Dean. Al principio, Chris piensa que el comportamiento 'demasiado' complaciente de los padres se debe a su nerviosismo por la relación interracial de su hija, pero a medida que pasan las horas, una serie de descubrimientos cada vez más inquietantes le llevan a descubrir una verdad inimaginable."
   },
   {
     "id": 92,
     "titulo": "Us",
     "anio": 2019,
     "rating": 6.9,
-    "poster": "https://image.tmdb.org/t/p/w500/0j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4.jpg"
+    "poster": "/posters/92.jpg",
+    "sinopsis": "Adelaide Wilson es una mujer que vuelve al hogar de su infancia en la costa junto a su marido, Gabe, y sus dos hijos, para una idílica escapada veraniega. Después de un tenso día en la playa con sus amigos, Adelaide y su familia vuelven a la casa donde están pasando las vacaciones. Cuando cae la noche, los Wilson descubren la silueta de cuatro figuras cogidas de la mano y en pie delante de la vivienda. \"Nosotros\" enfrenta a una entrañable familia estadounidense a un enemigo tan insólito como aterrador."
   },
   {
     "id": 93,
     "titulo": "Nosotros",
     "anio": 2019,
     "rating": 6.9,
-    "poster": "https://image.tmdb.org/t/p/w500/1k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5.jpg"
+    "poster": "/posters/93.jpg",
+    "sinopsis": "Adelaide Wilson es una mujer que vuelve al hogar de su infancia en la costa junto a su marido, Gabe, y sus dos hijos, para una idílica escapada veraniega. Después de un tenso día en la playa con sus amigos, Adelaide y su familia vuelven a la casa donde están pasando las vacaciones. Cuando cae la noche, los Wilson descubren la silueta de cuatro figuras cogidas de la mano y en pie delante de la vivienda. \"Nosotros\" enfrenta a una entrañable familia estadounidense a un enemigo tan insólito como aterrador."
   },
   {
     "id": 94,
     "titulo": "Huye",
     "anio": 2020,
-    "rating": 7.0,
-    "poster": "https://image.tmdb.org/t/p/w500/2l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6.jpg"
+    "rating": 7,
+    "poster": "/posters/94.jpg",
+    "sinopsis": "Una niña callejera, Taylor (Ezmie Garcia), ha sido adoptada por Sandy (Alexandra Paul) & Larry (Linden Ashby). Ambos son los propietarios de un albergue para los más necesitados, por lo que decidieron rescatar a Taylor de una vida de pobreza y penurias en la calle. Por desgracia, el pasado de la joven parece dispuesto a no abandonarla. Alguien la persigue, y no precisamente para algo bueno."
   },
   {
     "id": 95,
     "titulo": "El acto del silencio",
     "anio": 2019,
     "rating": 6.1,
-    "poster": "https://image.tmdb.org/t/p/w500/3m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7.jpg"
+    "poster": "https://image.tmdb.org/t/p/w500/8PfCRDXqRZMr0k8BvZMdsCUBhLY.jpg"
   },
   {
     "id": 96,
     "titulo": "El hombre invisible",
     "anio": 2020,
     "rating": 7.1,
-    "poster": "https://image.tmdb.org/t/p/w500/4n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8.jpg"
+    "poster": "/posters/96.jpg",
+    "sinopsis": "Dos semanas después de escapar de su tóxica relación con el rico y brillante científico Adrian Griffin, Cecilia está convencida de que Adrian va a aparecer en cualquier momento… hasta que recibe una nota comunicándole el suicidio de su expareja."
   },
   {
     "id": 97,
     "titulo": "La casa del reloj en la pared",
     "anio": 2018,
-    "rating": 6.0,
-    "poster": "https://image.tmdb.org/t/p/w500/5o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9.jpg"
+    "rating": 6,
+    "poster": "/posters/97.jpg",
+    "sinopsis": "La historia cuenta el mágico y escalofriante relato de Lewis (Owen Vaccaro), un niño de 10 años quien, tras quedar huérfano, se muda a la vieja y rechinante casa de su tío, la cual tiene un misterioso reloj. Pronto, la aburrida y tranquila vida de su nuevo pueblo se ve interrumpida cuando accidentalmente, Lewis despierta a magos y brujas de un mundo secreto."
   },
   {
     "id": 98,
     "titulo": "El conjuro: El diablo me obligó",
     "anio": 2021,
     "rating": 6.3,
-    "poster": "https://image.tmdb.org/t/p/w500/6p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0.jpg"
+    "poster": "/posters/98.jpg",
+    "sinopsis": "Los investigadores paranormales Ed y Lorraine Warren se encuentran con lo que se convertiría en uno de los casos más sensacionales de sus archivos. La lucha por el alma de un niño los lleva más allá de todo lo que habían visto antes, para marcar la primera vez en la historia de los Estados Unidos que un sospechoso de asesinato reclamaría posesión demoníaca como defensa."
   },
   {
     "id": 99,
     "titulo": "Maligno",
     "anio": 2021,
     "rating": 6.3,
-    "poster": "https://image.tmdb.org/t/p/w500/7q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1.jpg"
+    "poster": "/posters/99.jpg",
+    "sinopsis": "Madison es una mujer que tiene unas macabras pesadillas que la dejan completamente paralizada. Aterrada por lo que ve en ellas, Madison no consigue dormir por las noches ni vivir por el día. Pero el terror cada vez se irá apoderando de ella cuando descubra que esas pesadillas no son sueños, sino que son hechos de la vida real."
   },
   {
     "id": 100,
     "titulo": "Spiral: El juego del miedo",
     "anio": 2021,
     "rating": 5.2,
-    "poster": "https://image.tmdb.org/t/p/w500/8r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2.jpg"
+    "poster": "/posters/100.jpg",
+    "sinopsis": "El detective descarado Ezekiel \"Zeke\" Banks, y su compañero novato, se hacen cargo de una espeluznante investigación sobre varios asesinatos espantosos. Zeke, involuntariamente, se vera atrapado en el  morboso juego del asesino."
   }
 ]
