@@ -27,11 +27,10 @@ const FormPeliculas = () => {
     }
 
     if (editId) {
-      // Editar película existente
+
       setPeliculas(peliculas.map(p => p.id === editId ? { ...formData, id: editId } : p));
       setEditId(null);
     } else {
-      // Agregar nueva película
       setPeliculas([...peliculas, { ...formData, id: Date.now() }]);
     }
 
@@ -48,7 +47,7 @@ const FormPeliculas = () => {
   };
 
   const handleCancel = () => {
-    setFormData({ titulo: '', actor: '', año: '' });
+    setFormData
     setEditId(null);
   };
 
@@ -62,7 +61,6 @@ const FormPeliculas = () => {
         </h1>
 
         <div className="max-w-2xl mx-auto">
-          {/* FORMULARIO */}
           <form className="bg-black/80 backdrop-blur-md border border-white/10 rounded-lg p-8 mb-8 shadow-2xl font-omen-body" onSubmit={handleSubmit}>
             <div className="space-y-4">
               <div>
@@ -120,7 +118,6 @@ const FormPeliculas = () => {
             </div>
           </form>
 
-          {/* LISTADO DE PELÍCULAS */}
           <div className="space-y-4">
             {peliculas.length === 0 ? (
               <p className="text-center text-gray-300 text-lg py-10">No hay películas registradas</p>
