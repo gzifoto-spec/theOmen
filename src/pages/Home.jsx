@@ -51,7 +51,7 @@ const Home = () => {
 
                             <div className="mt-10">
                                 <Link
-                                    to="/movies"
+                                    to="/peliculas"
                                     className="inline-flex items-center justify-center px-6 py-3 rounded-md font-omen-body font-medium text-[#f2f2f2] bg-[#b30000] border border-[#ff1a1a]/40 transition hover:bg-[#ff1a1a] hover:shadow-[0_0_18px_rgba(255,26,26,0.45)] focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ff1a1a] focus-visible:ring-offset-2 focus-visible:ring-offset-[#050505]"
                                 >
                                     Iniciar el Ritual
