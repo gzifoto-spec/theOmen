@@ -5,7 +5,7 @@ El proyecto simula un **archivo prohibido de películas malditas**, combinando u
 
 ---
 
-## 🧠 Objetivo del proyecto
+## 🧠 Objetivo del proyecto.
 
 Trabajo en grupo para poner en práctica:
 
