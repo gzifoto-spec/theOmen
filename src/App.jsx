@@ -1,21 +1,19 @@
 import Navbar from "./components/Navbar"
 import { Routes, Route } from "react-router-dom"
-import Contact from "./pages/Contact"
+import Contact from "./pages/Contact";
 import Home from "./pages/Home"
 
-function App() {
+function App () {
   return (
     <>
       <Navbar />
-
-      <main className="p-6">
+      <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/contacto" element={<Contact />} />
         </Routes>
       </main>
     </>
-  )
+  );
 }
-
 export default App

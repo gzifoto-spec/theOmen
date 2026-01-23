@@ -1,11 +1,12 @@
-import fondo from '../components/img/fondo.jpg';
+// import fondo from '../components/img/fondo.jpg';
+// TODO: Añadir imagen de fondo cuando esté disponible
 
 function Contact() {
     return (
         <div
-            className="min-h-screen text-gray-100 px-4 py-8 md:px-6 md:py-12 lg:py-16 bg-cover bg-center bg-fixed bg-no-repeat relative"
-            style={{ backgroundImage: `url(${fondo})` }}
-        >            <div className="absolute inset-0 bg-black/70 -z-10"></div>
+            className="min-h-screen text-gray-100 px-4 py-8 md:px-6 md:py-12 lg:py-16 bg-neutral-950 relative"
+        >
+            <div className="absolute inset-0 bg-black/70 -z-10"></div>
             <div className="relative z-10 max-w-6xl mx-auto">
 
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center text-red-600 mb-8 md:mb-12 tracking-wider uppercase drop-shadow-lg">
