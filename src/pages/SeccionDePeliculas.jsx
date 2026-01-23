@@ -108,7 +108,7 @@ const Peliculas = () => {
                                 <img
                                     src={imagenesError.has(pelicula.id) ? '/posters/placeholder.jpg' : pelicula.poster}
                                     alt={pelicula.titulo}
-                                    className="w-full h-full object-cover group-hover:brightness-75 transition duration-300"
+                                    className="w-full h-full object-contain group-hover:brightness-75 transition duration-300"
                                     onError={() => {
                                         setImagenesError(prev => new Set([...prev, pelicula.id]));
                                     }}
