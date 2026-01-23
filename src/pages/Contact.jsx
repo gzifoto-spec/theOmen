@@ -18,39 +18,34 @@ function Contact() {
 
 
                     <section className="bg-neutral-900 border border-red-900/50 p-6 md:p-8 rounded-lg shadow-2xl shadow-red-950/20">
-                        <h2 className="text-xl md:text-2xl font-bold text-red-500 mb-4 md:mb-6 flex items-center gap-3">
-                            <span className="text-2xl">📧</span>
+                        <h2 className="text-xl md:text-2xl font-bold text-red-500 mb-4 md:mb-6">
                             Contáctanos
                         </h2>
                         <div className="space-y-3 md:space-y-4">
                             <p className="text-gray-300 text-sm md:text-base">
-                                <span className="text-red-400 font-semibold">Email:</span>
+                                <span className="text-red-400 font-semibold">Email: </span>
                                 medium@theomen.com
                             </p>
                             <p className="text-gray-300 text-sm md:text-base">
-                                <span className="text-red-400 font-semibold">Phone:</span>
+                                <span className="text-red-400 font-semibold">Telefóno: </span>
                                 +34 (666) 1980-666
                             </p>
-                            <p className="text-gray-300 text-sm md:text-base">
-                                <span className="text-red-400 font-semibold">Emergency Hotline:</span>
-                                Disponibles 24/7 para tus terrores nocturnos
-                            </p>
+
                         </div>
                     </section>
 
 
                     <section className="bg-neutral-900 border border-red-900/50 p-6 md:p-8 rounded-lg shadow-2xl shadow-red-950/20">
-                        <h2 className="text-xl md:text-2xl font-bold text-red-500 mb-4 md:mb-6 flex items-center gap-3">
-                            <span className="text-2xl">📍</span>
+                        <h2 className="text-xl md:text-2xl font-bold text-red-500 mb-4 md:mb-6">
                             Nuestra localización
                         </h2>
                         <div className="space-y-3 md:space-y-4">
                             <p className="text-gray-300 text-sm md:text-base">
-                                <span className="text-red-400 font-semibold">Dirección:</span>
+                                <span className="text-red-400 font-semibold">Dirección: </span>
                                 Carrer del Bisbe, casa de la bruixa,
                             </p>
                             <p className="text-gray-300 text-sm md:text-base">
-                                <span className="text-red-400 font-semibold">Coordenadas:</span>
+                                <span className="text-red-400 font-semibold">Coordenadas: </span>
                                 41.3833947° N, 2.1769119° W
                             </p>
 
@@ -61,8 +56,7 @@ function Contact() {
 
                 <section className="mt-6 md:mt-8">
                     <div className="bg-neutral-900 border border-red-900/50 p-6 md:p-8 rounded-lg shadow-2xl shadow-red-950/20">
-                        <h2 className="text-xl md:text-2xl font-bold text-red-500 mb-4 md:mb-6 flex items-center gap-3">
-                            <span className="text-2xl">🗺️</span>
+                        <h2 className="text-xl md:text-2xl font-bold text-red-500 mb-4 md:mb-6">
                             Encuéntranos
                         </h2>
                         <div className="h-64 md:h-80 lg:h-96 w-full bg-neutral-800 rounded border-2 border-red-900/30 flex items-center justify-center relative overflow-hidden">

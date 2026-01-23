@@ -12,7 +12,7 @@ export default function Navbar() {
     const rightLinks = [
         { label: "Ubicación", to: "/ubicacion" },
         { label: "Sobre nosotros", to: "/nosotros" },
-        { label: "Contacto", to: "/contacto" },
+        { label: "Contacto", to: "/contact" },
     ];
 
 
@@ -69,7 +69,7 @@ export default function Navbar() {
                                     </Link>
                                 </li>
                                 <li className="hover:text-red-700 transition">
-                                    <Link to="/contacto">
+                                    <Link to="/contact">
                                         Contacto
                                     </Link>
                                 </li>
