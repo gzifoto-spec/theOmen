@@ -21,7 +21,6 @@ function App () {
           <Route path="/formulario" element={<Formulario />} />
           <Route path="/nosotros" element={<Nosotros />} />
           <Route path="/contacto" element={<Contacto />} />    
-          <Route path="/ubicacion" element={<Ubicacion />} />
         </Routes>
       </main>
       <Footer />
