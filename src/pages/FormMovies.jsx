@@ -1,7 +1,7 @@
-import FormPeliculas from '../components/formPeliculas/FormPeliculas';
+import FormMovies from '../components/formMovies/FormMovies';
 
 const Formulario = () => {
-    return <FormPeliculas />;
+    return <FormMovies />;
 }
 
 export default Formulario
