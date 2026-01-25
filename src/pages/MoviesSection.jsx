@@ -75,7 +75,7 @@ const Peliculas = () => {
                     Página {paginaActual} de {totalPaginas}
                 </p>
 
-                {/* Controles de paginación ARRIBA */}
+                
                 <div className="flex items-center justify-center gap-4 mb-8">
                     <button
                         onClick={irPaginaAnterior}
@@ -103,7 +103,7 @@ const Peliculas = () => {
                             key={pelicula.id}
                             className="group bg-neutral-900 border border-red-900/30 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl hover:shadow-red-950/50 transition duration-300 transform hover:scale-105 flex flex-col h-full"
                         >
-                            {/* Poster */}
+                            
                             <div className="relative overflow-hidden h-64 sm:h-72 bg-neutral-800 flex items-center justify-center flex-shrink-0">
                                 <img
                                     src={imagenesError.has(pelicula.id) ? '/posters/placeholder.jpg' : pelicula.poster}
@@ -120,7 +120,7 @@ const Peliculas = () => {
                                 )}
                             </div>
 
-                            {/* Contenido */}
+                            
                             <div className="p-4 flex flex-col flex-grow justify-between">
                                 <h3 className="text-gray-100 font-bold text-sm mb-2 line-clamp-2 group-hover:text-red-500 transition">
                                     {pelicula.titulo}
@@ -148,7 +148,7 @@ const Peliculas = () => {
                     ))}
                 </div>
 
-                {/* Controles de paginación */}
+                
                 <div className="flex items-center justify-center gap-4 mb-8">
                     <button
                         onClick={irPaginaAnterior}
