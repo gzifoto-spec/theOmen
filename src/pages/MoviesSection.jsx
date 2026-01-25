@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';  // ← Añade Link
 import axios from 'axios';
 
 const Peliculas = () => {
@@ -75,7 +75,6 @@ const Peliculas = () => {
                     Página {paginaActual} de {totalPaginas}
                 </p>
 
-                
                 <div className="flex items-center justify-center gap-4 mb-8">
                     <button
                         onClick={irPaginaAnterior}
@@ -97,13 +96,15 @@ const Peliculas = () => {
                         Siguiente →
                     </button>
                 </div>
+
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-6 mb-12">
                     {peliculasActuales.map((pelicula) => (
-                        <div
+                        <Link
                             key={pelicula.id}
+                            to={`/movies/${pelicula.id}`}  // ← Navega al detalle
                             className="group bg-neutral-900 border border-red-900/30 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl hover:shadow-red-950/50 transition duration-300 transform hover:scale-105 flex flex-col h-full"
                         >
-                            
+                            {/* Poster */}
                             <div className="relative overflow-hidden h-64 sm:h-72 bg-neutral-800 flex items-center justify-center flex-shrink-0">
                                 <img
                                     src={imagenesError.has(pelicula.id) ? '/posters/placeholder.jpg' : pelicula.poster}
@@ -120,7 +121,7 @@ const Peliculas = () => {
                                 )}
                             </div>
 
-                            
+                            {/* Info */}
                             <div className="p-4 flex flex-col flex-grow justify-between">
                                 <h3 className="text-gray-100 font-bold text-sm mb-2 line-clamp-2 group-hover:text-red-500 transition">
                                     {pelicula.titulo}
@@ -138,17 +139,15 @@ const Peliculas = () => {
                                     </div>
                                 </div>
 
-                                <button 
-                                    onClick={() => navigate(`/peliculas/${pelicula.id}`)}
-                                    className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 text-sm">
+                                {/* Botón ya no necesita onClick, el Link lo cubre todo */}
+                                <span className="w-full bg-red-600 group-hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 text-sm text-center block">
                                     Más info
-                                </button>
+                                </span>
                             </div>
-                        </div>
+                        </Link>
                     ))}
                 </div>
 
-                
                 <div className="flex items-center justify-center gap-4 mb-8">
                     <button
                         onClick={irPaginaAnterior}

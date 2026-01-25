@@ -11,7 +11,6 @@ export default function CursedCarousel() {
         const obtenerPeliculas = async () => {
             try {
                 const respuesta = await axios.get('http://localhost:5000/api/peliculas');
-                // Tomar 5 películas aleatorias
                 const peliculasAleatorias = respuesta.data
                     .sort(() => Math.random() - 0.5)
                     .slice(0, 5);
@@ -68,7 +67,7 @@ export default function CursedCarousel() {
 
                         <div className="absolute bottom-0 left-0 right-0 p-4 z-20">
                             <p className="font-omen-body text-xs tracking-[0.25em] uppercase text-[#b5b5b5]">
-                                Terror · {movie.anio}
+                                {movie.anio}
                             </p>
                             <h3 className="font-omen-title mt-2 text-[#f2f2f2] text-lg tracking-[0.12em] uppercase">
                                 {movie.titulo}
