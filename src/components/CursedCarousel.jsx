@@ -44,7 +44,7 @@ export default function CursedCarousel() {
     }
 
     return (
-        <Link to={`/peliculas/${movies[index]?.id}`} className="block">
+        <Link to={`/movies/${movies[index]?.id}`} className="block">
             <div className="relative h-105 w-75 lg:h-130 lg:w-90 overflow-hidden rounded-xl border border-[#ff1a1a]/20 bg-[#0b0b0b]/40 cursor-pointer"> 
                 <div className="absolute inset-0 bg-linear-to-b from-[#050505]/30 via-transparent to-[#050505]/90 z-10" />
                 {movies.map((movie, i) => (
