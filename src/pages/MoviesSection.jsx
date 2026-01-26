@@ -15,6 +15,7 @@ const Peliculas = () => {
     useEffect(() => {
         const obtenerPeliculas = async () => {
             try {
+                debugger
                 setCargando(true);
                 const respuesta = await axios.get("http://localhost:3000/peliculas");
                 setPeliculas(respuesta.data);
