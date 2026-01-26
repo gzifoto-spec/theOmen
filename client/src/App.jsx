@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar"
 import { Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
 import Peliculas from "./pages/MoviesSection"
+import DetallesPelicula from "./pages/MovieDetail"
 import Formulario from "./pages/FormMovies"
 import Nosotros from "./pages/AboutUs"
 import Contacto from "./pages/Contact"
@@ -20,6 +21,8 @@ function App () {
           <Route path="/formmovies" element={<Formulario />} />
           <Route path="/aboutus" element={<Nosotros />} />
           <Route path="/contact" element={<Contacto />} />    
+          <Route path="/contact" element={<Contacto />} />  
+          <Route path="/movies/:id" element={<DetallesPelicula />}  />
 
         </Routes>
       </main>

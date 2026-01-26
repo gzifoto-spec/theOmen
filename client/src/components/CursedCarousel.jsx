@@ -11,8 +11,8 @@ export default function CursedCarousel() {
     useEffect(() => {
         const obtenerPeliculas = async () => {
             try {
-                const respuesta = await axios.get('http://localhost:5000/api/peliculas');
-                // Tomar 5 películas aleatorias
+                const respuesta = await axios.get("http://localhost:5000/api/peliculas");
+
                 const peliculasAleatorias = respuesta.data
                     .sort(() => Math.random() - 0.5)
                     .slice(0, 5);
@@ -51,8 +51,11 @@ export default function CursedCarousel() {
     };
 
     return (
-        <Link to={`/peliculas/${movies[index]?.id}`} className="block">
-            <div className="relative h-105 w-75 lg:h-130 lg:w-90 overflow-hidden rounded-xl border border-[#ff1a1a]/20 bg-[#0b0b0b]/40 cursor-pointer"> 
+        <div
+            onClick={() => goToDetails(movies[index].id)}
+            className="block cursor-pointer"
+        >
+            <div className="relative h-105 w-75 lg:h-130 lg:w-90 overflow-hidden rounded-xl border border-[#ff1a1a]/20 bg-[#0b0b0b]/40">
                 <div className="absolute inset-0 bg-linear-to-b from-[#050505]/30 via-transparent to-[#050505]/90 z-10" />
 
                 {movies.map((movie, i) => (
@@ -85,6 +88,6 @@ export default function CursedCarousel() {
                     </div>
                 ))}
             </div>
-        </Link>
+        </div>
     );
 }

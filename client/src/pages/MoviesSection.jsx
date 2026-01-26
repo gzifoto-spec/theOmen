@@ -106,10 +106,12 @@ const Peliculas = () => {
                     {peliculasActuales.map((pelicula) => (
                         <Link
                             key={pelicula.id}
-                            className="group bg-neutral-900 border border-red-900/30 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl hover:shadow-red-950/50 transition duration-300 transform hover:scale-105 flex flex-col h-full"
+                            className="group bg-neutral-900 border border-red-900/30 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl hover:shadow-red-950/50 transition transform hover:scale-105 flex flex-col h-full"
                         >
-                            
-                            <div className="relative overflow-hidden h-64 sm:h-72 bg-neutral-800 flex items-center justify-center flex-shrink-0">
+                            <div
+                                className="relative overflow-hidden h-64 sm:h-72 bg-neutral-800 flex items-center justify-center flex-shrink-0 cursor-pointer"
+                                onClick={() => goToDetails(pelicula.id)}
+                            >
                                 <img
                                     src={
                                         imagenesError.has(pelicula.id)
@@ -132,7 +134,6 @@ const Peliculas = () => {
                                 )}
                             </div>
 
-                            
                             <div className="p-4 flex flex-col flex-grow justify-between">
                                 <h3 className="text-gray-100 font-bold text-sm mb-2 line-clamp-2 group-hover:text-red-500 transition">
                                     {pelicula.titulo}
@@ -153,9 +154,10 @@ const Peliculas = () => {
                                     </div>
                                 </div>
 
-                                <button 
-                                    onClick={() => navigate(`/peliculas/${pelicula.id}`)}
-                                    className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition duration-300 text-sm">
+                                <button
+                                    onClick={() => goToDetails(pelicula.id)}
+                                    className="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded transition text-sm"
+                                >
                                     Más info
                                 </button>
                             </div>
