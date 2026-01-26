@@ -1,26 +1,28 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import axios from "axios";
 
 export default function CursedCarousel() {
     const [index, setIndex] = useState(0);
     const [movies, setMovies] = useState([]);
     const [loading, setLoading] = useState(true);
-    const navigate = useNavigate();
 
     useEffect(() => {
         const obtenerPeliculas = async () => {
             try {
-                const respuesta = await axios.get("http://localhost:5000/api/peliculas");
-
-                const peliculasAleatorias = respuesta.data
+                // CORREGIDO: puerto 5000 (backend), no 5173 (frontend)
+                const respuesta = await axios.get('http://localhost:5000/api/peliculas');
+                
+                const datos = respuesta.data.peliculas || [];
+                
+                const peliculasAleatorias = datos
                     .sort(() => Math.random() - 0.5)
                     .slice(0, 5);
-
+                
                 setMovies(peliculasAleatorias);
                 setLoading(false);
             } catch (err) {
-                console.error("Error fetching movies:", err);
+                console.error('Error fetching movies:', err);
                 setLoading(false);
             }
         };
@@ -30,11 +32,11 @@ export default function CursedCarousel() {
 
     useEffect(() => {
         if (movies.length === 0) return;
-
+        
         const timer = setInterval(() => {
             setIndex((prev) => (prev + 1) % movies.length);
         }, 6500);
-
+        
         return () => clearInterval(timer);
     }, [movies.length]);
 
@@ -46,18 +48,11 @@ export default function CursedCarousel() {
         );
     }
 
-    const goToDetails = (id) => {
-        navigate(`/movies/${id}`);
-    };
-
     return (
-        <div
-            onClick={() => goToDetails(movies[index].id)}
-            className="block cursor-pointer"
-        >
-            <div className="relative h-105 w-75 lg:h-130 lg:w-90 overflow-hidden rounded-xl border border-[#ff1a1a]/20 bg-[#0b0b0b]/40">
+        <Link to={`/movies/${movies[index]?.id}`} className="block">
+            <div className="relative h-105 w-75 lg:h-130 lg:w-90 overflow-hidden rounded-xl border border-[#ff1a1a]/20 bg-[#0b0b0b]/40 cursor-pointer"> 
                 <div className="absolute inset-0 bg-linear-to-b from-[#050505]/30 via-transparent to-[#050505]/90 z-10" />
-
+                
                 {movies.map((movie, i) => (
                     <div
                         key={movie.id}
@@ -71,7 +66,7 @@ export default function CursedCarousel() {
                             className="h-full w-full object-cover opacity-80"
                             draggable="false"
                             onError={(e) => {
-                                e.target.src = "/posters/placeholder.jpg";
+                                e.target.src = '/posters/placeholder.jpg';
                             }}
                         />
 
@@ -88,6 +83,6 @@ export default function CursedCarousel() {
                     </div>
                 ))}
             </div>
-        </div>
+        </Link>
     );
 }

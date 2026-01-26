@@ -10,29 +10,34 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const PORT = 5000;
 
-// Middlewares
-app.use(cors());
+
+app.use(cors({
+    origin: 'http://localhost:5000',  
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization']
+}));
+
 app.use(express.json());
 
-// Leer el archivo terror.json
-const terrorData = JSON.parse(fs.readFileSync(path.join(__dirname, 'terror.json'), 'utf-8'));
 
-// Rutas
+const terrorData = JSON.parse(fs.readFileSync(path.join(__dirname, 'terror.json')));
+
+
 app.get('/api/peliculas', (req, res) => {
-  res.json(terrorData);
+    res.json(terrorData);
 });
 
 app.get('/api/peliculas/:id', (req, res) => {
-  const pelicula = terrorData.find(p => p.id === parseInt(req.params.id));
-  if (pelicula) {
-    res.json(pelicula);
-  } else {
-    res.status(404).json({ error: 'Película no encontrada' });
-  }
+    const pelicula = terrorData.peliculas.find(p => p.id === parseInt(req.params.id));
+    if (pelicula) {
+        res.json(pelicula);
+    } else {
+        res.status(404).json({ error: 'Película no encontrada' });
+    }
 });
 
 app.listen(PORT, () => {
-  console.log(`🎬 API de terror arrancada en http://localhost:${PORT}`);
-  console.log(`📽️  GET /api/peliculas - Obtener todas las películas`);
-  console.log(`🎞️  GET /api/peliculas/:id - Obtener película por ID`);
+    console.log(`🎬 API de terror arrancada en http://localhost:${PORT}`);
+    console.log(`📽️  GET /api/peliculas - Obtener todas las películas`);
+    console.log(`🎞️  GET /api/peliculas/:id - Obtener película por ID`);
 });

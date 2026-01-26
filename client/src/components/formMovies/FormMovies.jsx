@@ -17,15 +17,13 @@ const FormMovies = () => {
     poster: "",
   });
 
-  /* ─────────────── FETCH INICIAL ─────────────── */
   useEffect(() => {
     axios
       .get("http://localhost:5000/api/peliculas")
-      .then((res) => setMovies(res.data))
+      .then((res) => setMovies(res.data.peliculas || []))
       .catch((err) => console.error(err));
   }, []);
 
-  /* ─────────────── VALIDACIÓN ─────────────── */
   const validate = (data) => {
     const newErrors = {};
 
@@ -49,7 +47,6 @@ const FormMovies = () => {
     return newErrors;
   };
 
-  /* ─────────────── HANDLERS ─────────────── */
   const handleChange = (e) => {
     const { name, value } = e.target;
     const updated = { ...formData, [name]: value };
@@ -92,7 +89,7 @@ const FormMovies = () => {
         await axios.post("http://localhost:5000/api/peliculas", payload);
       }
 
-      navigate("/movies"); // 🔥 flujo natural
+      navigate("/movies");
     } catch (err) {
       console.error("Error guardando película:", err);
     } finally {
@@ -123,7 +120,6 @@ const FormMovies = () => {
     }
   };
 
-  /* ─────────────── UI ─────────────── */
   return (
     <div className="min-h-screen bg-neutral-950 pt-20 px-4">
       <h1 className="text-center text-4xl font-omen-title text-white mb-10 uppercase tracking-widest">
@@ -134,7 +130,6 @@ const FormMovies = () => {
         onSubmit={handleSubmit}
         className="max-w-xl mx-auto bg-black/80 border border-white/10 p-8 rounded-lg space-y-5"
       >
-        {/* TÍTULO */}
         <div>
           <input
             name="title"
@@ -148,7 +143,6 @@ const FormMovies = () => {
           {errors.title && <p className="text-red-500 text-sm">{errors.title}</p>}
         </div>
 
-        {/* AÑO */}
         <div>
           <input
             type="number"
@@ -163,7 +157,6 @@ const FormMovies = () => {
           {errors.year && <p className="text-red-500 text-sm">{errors.year}</p>}
         </div>
 
-        {/* POSTER */}
         <div>
           <input
             name="poster"
@@ -179,7 +172,6 @@ const FormMovies = () => {
           )}
         </div>
 
-        {/* SINOPSIS */}
         <div>
           <textarea
             name="synopsis"
@@ -217,7 +209,6 @@ const FormMovies = () => {
         </div>
       </form>
 
-      {/* LISTADO */}
       <div className="max-w-xl mx-auto mt-12 space-y-4">
         {movies.map((movie) => (
           <div
