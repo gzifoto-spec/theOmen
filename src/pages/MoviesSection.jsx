@@ -16,7 +16,7 @@ const Peliculas = () => {
         const obtenerPeliculas = async () => {
             try {
                 setCargando(true);
-                const respuesta = await axios.get('http://localhost:5000/api/peliculas');
+                const respuesta = await axios.get("http://localhost:3000/peliculas");
                 setPeliculas(respuesta.data);
                 setError(null);
             } catch (err) {
