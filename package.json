@@ -4,13 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "api": "node server.js",
+    "api": "json-server --watch server/db.json --port 3000",
     "dev": "vite",
-    "api": "json-server --watch terror.json --port 5000",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "api": "json-server --watch server/db.json --port 3000"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
@@ -19,6 +17,7 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.12.0",
+    "swiper": "^12.0.3",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
