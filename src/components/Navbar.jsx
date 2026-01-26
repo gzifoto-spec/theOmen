@@ -6,27 +6,32 @@ export default function Navbar() {
 
     const leftLinks = [
         { label: "Inicio", to: "/" },
-        { label: "Sección de películas", to: "/peliculas" },
-        { label: "Formulario para añadir películas", to: "/formulario" },
+        { label: "Sección de películas", to: "/movies" },
+        { label: "Formulario para añadir películas", to: "/form" },
     ];
 
     const rightLinks = [
-        { label: "Sobre nosotros", to: "/nosotros" },
-        { label: "Contacto", to: "/contacto" },
+        { label: "Sobre nosotros", to: "/aboutus" },
+        { label: "Contacto", to: "/contact" },
     ];
 
 
     return (
         <>
             {/* HERO */}
-            <div className="relative w-full">
+            <div className="relative w-full flex items-center justify-center bg-black">
                 <img
                     src="public/logo-primary.png"
                     alt="Hero"
-                    className="w-full h-auto block"
+                    className="h-auto max-h-[60px] sm:max-h-[80px] md:max-h-[100px] lg:max-h-[120px] object-contain block"
                 />
                 <div className="absolute inset-0 bg-black/30 pointer-events-none" />
             </div>
+
+
+
+
+
 
             {/* NAVBAR */}
             <header className="w-full bg-black/80 backdrop-blur-md border-t border-white/10">
@@ -43,12 +48,12 @@ export default function Navbar() {
                                     </Link>
                                 </li>
                                 <li className="hover:text-red-700 transition">
-                                    <Link to="/peliculas">
+                                    <Link to="/movies">
                                         Sección de películas
                                     </Link>
                                 </li>
                                 <li className="hover:text-red-700 transition">
-                                    <Link to="/formulario">
+                                    <Link to="/form">
                                         Formulario para añadir películas
                                     </Link>
                                 </li>
@@ -59,12 +64,12 @@ export default function Navbar() {
                         <div className="hidden md:flex gap-8">
                             <ul className="list-none flex gap-8">
                                 <li className="hover:text-red-700 transition">
-                                    <Link to="/nosotros">
+                                    <Link to="/aboutus">
                                         Sobre nosotros
                                     </Link>
                                 </li>
                                 <li className="hover:text-red-700 transition">
-                                    <Link to="/contacto">
+                                    <Link to="/contact">
                                         Contacto
                                     </Link>
                                 </li>
