@@ -6,11 +6,10 @@
   "scripts": {
     "api": "node server.js",
     "dev": "vite",
-    "api": "json-server --watch terror.json --port 5000",
+    "api": "json-server --watch server/db.json --port 3000",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "api": "json-server --watch server/db.json --port 3000"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.18",
@@ -30,7 +29,6 @@
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
     "globals": "^16.5.0",
-    "json-server": "^1.0.0-beta.5",
     "vite": "^7.2.4"
   }
 }
