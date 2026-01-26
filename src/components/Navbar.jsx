@@ -19,14 +19,19 @@ export default function Navbar() {
     return (
         <>
             {/* HERO */}
-            <div className="relative w-full">
+            <div className="relative w-full flex items-center justify-center bg-black">
                 <img
                     src="public/logo-primary.png"
                     alt="Hero"
-                    className="w-full h-auto block"
+                    className="h-auto max-h-[60px] sm:max-h-[80px] md:max-h-[100px] lg:max-h-[120px] object-contain block"
                 />
                 <div className="absolute inset-0 bg-black/30 pointer-events-none" />
             </div>
+
+
+
+
+
 
             {/* NAVBAR */}
             <header className="w-full bg-black/80 backdrop-blur-md border-t border-white/10">
