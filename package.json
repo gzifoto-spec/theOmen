@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "api": "node server.js",
     "dev": "vite",
     "api": "json-server --watch server/db.json --port 3000",
     "build": "vite build",
