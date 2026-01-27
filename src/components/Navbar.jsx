@@ -6,12 +6,12 @@ export default function Navbar() {
 
     const leftLinks = [
         { label: "Inicio", to: "/" },
-        { label: "Sección de películas", to: "/peliculas" },
-        { label: "Formulario para añadir películas", to: "/formulario" },
+        { label: "Sección de películas", to: "/movies" },
+        { label: "Formulario para añadir películas", to: "/form" },
     ];
 
     const rightLinks = [
-        { label: "Sobre nosotros", to: "/nosotros" },
+        { label: "Sobre nosotros", to: "/aboutus" },
         { label: "Contacto", to: "/contact" },
     ];
 
@@ -43,12 +43,12 @@ export default function Navbar() {
                                     </Link>
                                 </li>
                                 <li className="hover:text-red-700 transition">
-                                    <Link to="/peliculas">
+                                    <Link to="/movies">
                                         Sección de películas
                                     </Link>
                                 </li>
                                 <li className="hover:text-red-700 transition">
-                                    <Link to="/formulario">
+                                    <Link to="/form">
                                         Formulario para añadir películas
                                     </Link>
                                 </li>
@@ -59,7 +59,7 @@ export default function Navbar() {
                         <div className="hidden md:flex gap-8">
                             <ul className="list-none flex gap-8">
                                 <li className="hover:text-red-700 transition">
-                                    <Link to="/nosotros">
+                                    <Link to="/aboutus">
                                         Sobre nosotros
                                     </Link>
                                 </li>
