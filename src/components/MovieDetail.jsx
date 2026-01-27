@@ -14,7 +14,7 @@ export default function MovieDetail() {
         const fetchMovie = async () => {
             try {
                 setLoading(true);
-                const response = await axios.get(`http://localhost:5000/api/peliculas/${id}`);
+                const response = await axios.get(`http://localhost:3000/peliculas/${id}`);
                 setMovie(response.data);
                 setError(null);
             } catch (err) {
