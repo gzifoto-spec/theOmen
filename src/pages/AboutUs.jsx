@@ -22,9 +22,9 @@ const imagenesCarrusel = [
 ];
 const equipo = [
   { nombre: "Xabier Piñeiro", rol: "Product Owner", foto: fotoXabier },
-  { nombre: "Adrian", rol: "Scrum Master", foto: fotoAdrian },
-  { nombre: "Alba", rol: "Developer", foto: fotoAlba },
-  { nombre: "Maria", rol: "Developer", foto: fotoMaria },
+  { nombre: "Adrian Baeza", rol: "Scrum Master", foto: fotoAdrian },
+  { nombre: "Alba Ganduxé", rol: "Developer", foto: fotoAlba },
+  { nombre: "Maria Regueiro", rol: "Developer", foto: fotoMaria },
 ];
 
 const AboutUs = () => {
