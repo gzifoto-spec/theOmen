@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';  // ← Añade Link
 import axios from 'axios';
+import '..//index.css';
 
 const Peliculas = () => {
     const navigate = useNavigate();
