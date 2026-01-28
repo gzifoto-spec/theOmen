@@ -8,12 +8,23 @@ import posterSaintMaud from "../assets/home/poster-saint-maud.jpg";
 import posterTheConjuring from "../assets/home/poster-the-conjuring.jpg";
 import posterTheWitch from "../assets/home/poster-the-witch.webp";
 
+import fotoXabier from "../assets/home/Xabier.png";
+import fotoAdrian from "../assets/home/Adrian.png";
+import fotoAlba from "../assets/home/Alba.png";
+import fotoMaria from "../assets/home/Maria.png"; 
+
 const imagenesCarrusel = [
   posterHereditary,
   posterMidsommar,
   posterSaintMaud,
   posterTheConjuring,
   posterTheWitch,
+];
+const equipo = [
+  { nombre: "Xabier Piñeiro", rol: "Product Owner", foto: fotoXabier },
+  { nombre: "Adrian", rol: "Scrum Master", foto: fotoAdrian },
+  { nombre: "Alba", rol: "Developer", foto: fotoAlba },
+  { nombre: "Maria", rol: "Developer", foto: fotoMaria },
 ];
 
 const AboutUs = () => {
@@ -91,6 +102,28 @@ const AboutUs = () => {
               </div>
             );
           })}
+        </div>
+      </div>  
+                   {/* 👥 SECCIÓN EQUIPO */}
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-8 py-20">
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-white font-omen-title mb-12 uppercase drop-shadow-lg">
+          Nuestro Equipo
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+          {equipo.map((miembro, index) => (
+            <div
+              key={index}
+              className="bg-black/70 backdrop-blur-md rounded-lg p-4 flex flex-col items-center text-center hover:scale-105 transition-transform duration-300"
+            >
+              <img
+                src={miembro.foto}
+                alt={miembro.nombre}
+                className="w-32 h-32 md:w-36 md:h-36 object-cover mb-4 shadow-lg"
+              />
+              <h3 className="text-xl font-bold text-red-700 font-omen-title">{miembro.nombre}</h3>
+              <p className="text-gray-300 font-omen-body">{miembro.rol}</p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
