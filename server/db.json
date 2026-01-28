@@ -1,8 +1,8 @@
 {
-  "peliculas": [
-    {
-      "id": 1,
-      "titulo": "El silencio de los corderos",
+     "peliculas":[
+  {
+    "id": 1,
+    "titulo": "El silencio de los corderos",
     "anio": 1991,
     "rating": 8.6,
     "poster": "/posters/1.jpg",
@@ -792,6 +792,6 @@
     "rating": 5.2,
     "poster": "/posters/100.jpg",
     "sinopsis": "El detective descarado Ezekiel \"Zeke\" Banks, y su compañero novato, se hacen cargo de una espeluznante investigación sobre varios asesinatos espantosos. Zeke, involuntariamente, se vera atrapado en el  morboso juego del asesino."
-    }
-  ]
+  }
+]
 }
