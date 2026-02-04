@@ -17,7 +17,7 @@ const Peliculas = () => {
         const obtenerPeliculas = async () => {
             try {
                 setCargando(true);
-                const respuesta = await axios.get("http://localhost:3000/peliculas");
+                const respuesta = await axios.get(`${import.meta.env.VITE_API_URL}/peliculas`);
                 setPeliculas(respuesta.data);
                 setError(null);
             } catch (err) {
