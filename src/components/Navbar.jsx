@@ -22,7 +22,7 @@ export default function Navbar() {
             <div className="relative w-full flex items-center justify-center bg-black">
                 <Link to="/" className="relative z-20">
                 <img
-                    src="public/logo-primary.png"
+                    src="/logo-primary.png"
                     alt="Hero"
                     
                     className="h-auto max-h-[60px] sm:max-h-[80px] md:max-h-[100px] lg:max-h-[120px] object-contain block"
