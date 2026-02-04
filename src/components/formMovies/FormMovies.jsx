@@ -3,7 +3,7 @@ import axios from 'axios';
 import '../../index.css';
 import { useNavigate } from 'react-router-dom';
 
-const BASE_URL = 'http://localhost:3000/peliculas';
+const BASE_URL = `${import.meta.env.VITE_API_URL}/peliculas`
 
 const initialFormData = {
   titulo: '',

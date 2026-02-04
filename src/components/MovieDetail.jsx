@@ -14,7 +14,7 @@ export default function MovieDetail() {
         const fetchMovie = async () => {
             try {
                 setLoading(true);
-                const response = await axios.get(`http://localhost:3000/peliculas/${id}`);
+                const response = await axios.get(`${import.meta.env.VITE_API_URL}/peliculas/${id}`);
                 setMovie(response.data);
                 setError(null);
             } catch (err) {

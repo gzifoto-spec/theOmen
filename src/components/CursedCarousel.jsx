@@ -10,7 +10,7 @@ export default function CursedCarousel() {
     useEffect(() => {
         const obtenerPeliculas = async () => {
             try {
-                const respuesta = await axios.get("http://localhost:3000/peliculas");
+                const respuesta = await axios.get(`${import.meta.env.VITE_API_URL}/peliculas`);
                 const peliculasAleatorias = respuesta.data
                     .sort(() => Math.random() - 0.5)
                     .slice(0, 5);
