@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>🌐 Aplicación desplegada:</strong>
-  <a href="https://the-omen-5de8.vercel.app" target="_blank">https://the-omen-5de8.vercel.app</a>
+  <a href="https://the-omen.vercel.app" target="_blank">https://the-omen.vercel.app</a>
 </p>
 
 ---
@@ -21,9 +21,9 @@ A continuación, algunas capturas representativas del proyecto:
 
 <div align="center">
 
-![theOmer — Home](img/theOmer.png)
-
-![Nuestro equipo](/img/theOmerNosotros.png)
+| Home | Nuestro equipo |
+|:---:|:---:|
+| <img src="img/theOmer.png" width="400"/> | <img src="img/theOmerNosotros.png" width="400"/> |
 
 </div>
 
@@ -143,7 +143,7 @@ npm run dev
 
 El proyecto está desplegado y accesible públicamente:
 
-- **Frontend (React):** [https://the-omen-5de8.vercel.app](https://the-omen-5de8.vercel.app) - Desplegado en **Vercel**
+- **Frontend (React):** [https://the-omen.vercel.app](https://the-omen.vercel.app) - Desplegado en **Vercel**
 - **API (JSON Server):** [https://theomen-api.onrender.com](https://theomen-api.onrender.com) - Desplegado en **Render**
 
 ### Configuración de entornos
@@ -180,7 +180,7 @@ La aplicación detecta automáticamente el entorno y utiliza la URL correcta med
 
 <p align="center">
   <strong>🌐 Live app:</strong>
-  <a href="https://the-omen-5de8.vercel.app" target="_blank">https://the-omen-5de8.vercel.app</a>
+  <a href="https://the-omen.vercel.app" target="_blank">https://the-omen.vercel.app</a>
 </p>
 
 ---
@@ -205,9 +205,9 @@ La aplicación detecta automáticamente el entorno y utiliza la URL correcta med
 
 <div align="center">
 
-![Hero — Home](/src/assets/home/hero-desktop.jpg)
-
-![Our team](/img/theOmerNosotros.png)
+| Home | Our team |
+|:---:|:---:|
+| <img src="img/theOmer.png" width="400"/> | <img src="img/theOmerNosotros.png" width="400"/> |
 
 </div>
 
@@ -313,7 +313,7 @@ npm run dev
 
 The project is deployed and publicly accessible:
 
-- **Frontend (React):** [https://the-omen-5de8.vercel.app](https://the-omen-5de8.vercel.app) - Deployed on **Vercel**
+- **Frontend (React):** [https://the-omen.vercel.app](https://the-omen.vercel.app) - Deployed on **Vercel**
 - **API (JSON Server):** [https://theomen-api.onrender.com](https://theomen-api.onrender.com) - Deployed on **Render**
 
 ### Environment Configuration
